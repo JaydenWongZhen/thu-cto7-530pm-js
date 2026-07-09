@@ -1,5 +1,5 @@
 let ball;
-
+let squar;
 function setup() {
   // Set up the canvas
   new Canvas(400, 600);
@@ -11,7 +11,7 @@ function setup() {
  ball.y = 50;
  ball.diameter = 80;
  ball.color = "magenta"
- 
+squar
 
   // End Basic shape testing
 
