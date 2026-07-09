@@ -27,5 +27,5 @@ function draw() {
   background(250);
   textSize(16);
   text('ball:'+ round(ball.x) + "," + round(ball.y),20,50);
-  
+  if (ball.y > 600 || ball.y < 0)
 }
