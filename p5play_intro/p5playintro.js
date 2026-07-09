@@ -1,4 +1,4 @@
-let bll;
+let ball;
 
 function setup() {
   // Set up the canvas
@@ -7,7 +7,7 @@ function setup() {
 
   // Basic shape testing
   // write your codes here
- 
+ b
   // End Basic shape testing
 
    // Create a bouncing ball sprite
