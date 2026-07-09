@@ -37,6 +37,6 @@ function draw() {
     squar.vel.y = squar.vel.y * -1;
   }
   if (squar.x > 400 || squar.x < 0) {
-    ball.vel.x = ball.vel.x * -1;
+    squar.vel.x = squar.vel.x * -1;
   }
 }
