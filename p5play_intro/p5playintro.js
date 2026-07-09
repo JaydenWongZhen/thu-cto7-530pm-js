@@ -8,7 +8,7 @@ function setup() {
   // Basic shape testing
   // write your codes here
  ball =new Sprite();
- ball.y = 50;
+ ball.y = 100;
  ball.diameter = 80;
  ball.color = "magenta";
  ball.vel.y = 2;
