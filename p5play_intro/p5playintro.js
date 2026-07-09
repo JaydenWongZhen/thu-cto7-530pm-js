@@ -13,7 +13,7 @@ function setup() {
  ball.color = "magenta";
  ball.vel.y = 5;
 
- squar = new Sprite(200,300,100,50);
+ squar = new Sprite(100,500,100,50);
  squar.color = "blue";
   // End Basic shape testing
 
