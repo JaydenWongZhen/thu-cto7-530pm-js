@@ -42,3 +42,4 @@ function draw() {
     squar.vel.x = squar.vel.x * -1;
   }
 }
+//happy birthday mom ^
