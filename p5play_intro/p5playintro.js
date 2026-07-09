@@ -11,7 +11,7 @@ function setup() {
  ball.y = 50;
  ball.diameter = 80;
  ball.color = "magenta";
- ball.vel.y = 5;
+ ball.vel.y = 2;
 
  squar = new Sprite(100,500,100,50);
  squar.color = "blue";
