@@ -31,6 +31,6 @@ function draw() {
     ball.vel.y = ball.vel.y * -1
   }
   if (ball.x > 400 || ball.x < 0) {
-    ball.vel.x = ball.vel.x 
+    ball.vel.x = ball.vel.x * -1
   }
 }
