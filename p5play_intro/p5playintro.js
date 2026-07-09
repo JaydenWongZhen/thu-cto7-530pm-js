@@ -2,7 +2,7 @@ let ball;
 
 function setup() {
   // Set up the canvas
-  new Canvas(800, 400);
+  new Canvas(400, 600);
   background(250); //background color
 
   // Basic shape testing
@@ -10,7 +10,7 @@ function setup() {
  ball =new Sprite();
  ball.diameter = 80;
  ball.color = "magenta"
- 
+
   // End Basic shape testing
 
    // Create a bouncing ball sprite
