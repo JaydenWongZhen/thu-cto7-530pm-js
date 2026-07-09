@@ -33,7 +33,7 @@ function draw() {
   if (ball.x > 400 || ball.x < 0) {
     ball.vel.x = ball.vel.x * -1;
   }
-    if (ball.y > 600 || ball.y < 0) {
+    if (squar.y > 600 || squar.y < 0) {
     ball.vel.y = ball.vel.y * -1;
   }
   if (ball.x > 400 || ball.x < 0) {
