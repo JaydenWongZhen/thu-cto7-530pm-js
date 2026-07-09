@@ -28,6 +28,6 @@ function draw() {
   textSize(16);
   text('ball:'+ round(ball.x) + "," + round(ball.y),20,50);
   if (ball.y > 600 || ball.y < 0) {
-    ball.vel.
+    ball.vel.y = ball.vel.y * -1
   }
 }
