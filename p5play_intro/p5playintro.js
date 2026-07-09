@@ -18,7 +18,7 @@ function setup() {
  squar.vel.x = 5;
  squar.vel.y = 5;
   // End Basic shape testing
-/
+//happy birthday mom
    // Create a bouncing ball sprite
    // write your codes here
 
