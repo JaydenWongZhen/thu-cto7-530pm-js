@@ -26,5 +26,5 @@ function draw() {
   // write your codes here
   background(250);
   textSize(16);
-  text('ball:'+ round(ball.x) + "," + round(ball.y),20,50)
+  text('ball:'+ round(ball.x) + "," + round(ball.y),20,50);
 }
