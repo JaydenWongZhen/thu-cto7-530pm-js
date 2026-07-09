@@ -9,7 +9,7 @@ function setup() {
   // write your codes here
  ball =new Sprite();
  ball.y = 100;
- ball.diameter = 80;
+ ball.diameter = 50;
  ball.color = "magenta";
  ball.vel.y = 2;
 
