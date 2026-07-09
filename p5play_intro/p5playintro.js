@@ -14,7 +14,7 @@ function setup() {
  ball.vel.y = 2;
 
  squar = new Sprite(150,500,100,50);
- squar.color = "black";
+ squar.color = "blue";
   // End Basic shape testing
 
    // Create a bouncing ball sprite
