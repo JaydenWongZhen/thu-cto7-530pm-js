@@ -11,7 +11,7 @@ function setup() {
  ball.y = 50;
  ball.diameter = 80;
  ball.color = "magenta";
- ball.vel.y
+ ball.vel.y = 5;
  squar = new Sprite(200,100,100,50);
  squar.color = "blue";
   // End Basic shape testing
