@@ -25,8 +25,8 @@ function setup() {
 function draw() {
   // write your codes here
   background(250);
-  textSize(16);
-  text("happi birthday mom",10,);
+  textSize(25);
+  text("happi birthday mom",200,50);
   if (ball.y > 600 || ball.y < 0) {
     ball.vel.y = ball.vel.y * -1;
   }
