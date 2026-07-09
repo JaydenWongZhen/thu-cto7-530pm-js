@@ -26,7 +26,7 @@ function draw() {
   // write your codes here
   background(250);
   textSize(16);
-  text('ball:'+ round(ball.x) + "," + round(ball.y),20,50);
+  text("happi birthday mom");
   if (ball.y > 600 || ball.y < 0) {
     ball.vel.y = ball.vel.y * -1;
   }
