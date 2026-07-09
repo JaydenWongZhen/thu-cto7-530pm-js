@@ -9,7 +9,8 @@ function setup() {
   // write your codes here
  ball =new Sprite();
  ball.diameter = 80;
- ball.
+ ball.color = "magenta"
+ 
   // End Basic shape testing
 
    // Create a bouncing ball sprite
