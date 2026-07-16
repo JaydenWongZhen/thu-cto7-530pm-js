@@ -11,7 +11,7 @@ function setup() {
   text(areaotringol,500,200);
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
-  for(let i = 20; i>=1; i-=1) {
+  for(let i = 3; i>=1; i-=1) {
     text(i,25*i,50);
   }
   // --- Exercise: Age category classification ---
