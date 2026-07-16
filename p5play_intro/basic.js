@@ -6,7 +6,7 @@ function setup() {
   // write your codes here
   let bais = 10;
   let high = 10;
-  let areaotringol = 
+  let areaotringol = bais * high =
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
