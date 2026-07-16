@@ -4,7 +4,7 @@ function setup() {
   background(255);
   // --- Exercise: Area of Triangle ---
   // write your codes here
-  bais = 10
+  
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
