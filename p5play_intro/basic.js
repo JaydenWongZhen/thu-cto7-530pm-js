@@ -19,8 +19,11 @@ function setup() {
   // --- Exercise: Age category classification ---
   // write your codes here
   let age = 10;
-if (age >0 && myAge <2){
+if (age >0 && age <2){
   console.log("conifmed age: infant");
+}
+else if (age < 5){
+  
 }
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
