@@ -23,7 +23,7 @@ if (age >0 && age <2){
   console.log("conifmed age: infant");
 }
 else if (age < 5){
-  console.log()
+  console.log("age co")
 }
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
