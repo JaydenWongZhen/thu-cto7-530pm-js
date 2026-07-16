@@ -4,8 +4,9 @@ function setup() {
   background(255);
   // --- Exercise: Area of Triangle ---
   // write your codes here
-  let bais = 10
-  let high = 10
+  let bais = 10;
+  let high = 10;
+  let areaotringol = 
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
