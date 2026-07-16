@@ -30,7 +30,7 @@ function draw() {
   text("happi birthday mom",50,50);
   text("the square is dad btw",50,100)
   rect(100,200,50,50);
-  ellipse(125,175,50,50);
+  ellipse(200,200,50,50);
   rect(100,100,50,50,10,10,10,10);
   if (ball.y > 600 || ball.y < 0) {
     ball.vel.y = ball.vel.y * -1;
