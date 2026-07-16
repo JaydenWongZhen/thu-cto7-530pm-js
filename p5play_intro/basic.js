@@ -12,7 +12,7 @@ function setup() {
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
   let dih = 0;
-  for(let i = 0; i<=10; i+=2) {
+  for(let i = 0; i<=20; i+=2) {
     dih = dih + i;
   }
   text(dih,50,50);
