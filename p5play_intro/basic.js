@@ -9,7 +9,7 @@ function setup() {
   let areaotringol = bais * high / 2;
   console.log(areaotringol)
   textSize(20);
-  text(areaotringol,);
+  text(areaotringol,500,200);
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
