@@ -14,7 +14,6 @@ function setup() {
   let dih = 0;
   for(let i = 0; i<=10; i+=2) {
     dih = dih + i;
-    text(dih,10*i,50);
   }
   // --- Exercise: Age category classification ---
   // write your codes here
