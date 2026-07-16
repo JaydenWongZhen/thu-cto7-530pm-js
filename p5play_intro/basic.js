@@ -31,6 +31,7 @@ else if (age < 13){
 else if (age < 18){
   console.log("confirmed age group: teenager");
 }
+else if (age > 18) {}
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
