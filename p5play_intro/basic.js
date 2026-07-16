@@ -20,7 +20,7 @@ function setup() {
   // write your codes here
   let age = 10;
 if (age >0 && myAge <2){
-  console.log
+  console.log("conifmed age: infant");
 }
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
