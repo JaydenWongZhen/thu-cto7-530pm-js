@@ -7,7 +7,7 @@ function setup() {
   let bais = 10;
   let high = 10;
   let areaotringol = bais * high / 2;
-  console.log()
+  console.log(areaotringol)
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
