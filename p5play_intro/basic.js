@@ -18,7 +18,8 @@ function setup() {
   text(dih,50,50);
   // --- Exercise: Age category classification ---
   // write your codes here
-
+  let age = 10;
+if (age >0 && myAge <2)
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
