@@ -31,6 +31,7 @@ function draw() {
   text("the square is dad btw",50,100)
   rect(100,200,50,50);
   ellipse(150,150,50,50);
+  rect()
   if (ball.y > 600 || ball.y < 0) {
     ball.vel.y = ball.vel.y * -1;
   }
