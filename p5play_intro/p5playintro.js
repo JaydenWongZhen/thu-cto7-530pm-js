@@ -29,7 +29,7 @@ function draw() {
   textSize(25);
   text("happi birthday mom",50,50);
   text("the square is dad btw",50,100)
-  
+  rect(100,100,50,50);
   if (ball.y > 600 || ball.y < 0) {
     ball.vel.y = ball.vel.y * -1;
   }
