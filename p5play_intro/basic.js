@@ -12,7 +12,8 @@ function setup() {
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
   for(let i = 2; i<=10; i+=2) {
-    text(i,10*i,50);
+    let dih = 
+    text(dih,10*i,50);
   }
   // --- Exercise: Age category classification ---
   // write your codes here
