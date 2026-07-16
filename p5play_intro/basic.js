@@ -4,7 +4,7 @@ function setup() {
   background(255);
   // --- Exercise: Area of Triangle ---
   // write your codes here
-  let bais = 10;
+  let bais = 55;
   let high = 10;
   let areaotringol = bais * high / 2;
   console.log(areaotringol)
