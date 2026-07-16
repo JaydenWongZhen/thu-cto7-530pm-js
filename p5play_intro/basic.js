@@ -18,7 +18,7 @@ function setup() {
   text(dih,50,50);
   // --- Exercise: Age category classification ---
   // write your codes here
-  let age = 1;
+  let age = 3;
 if (age >0 && age <2){
   console.log("conifmed age: infant");
 }
