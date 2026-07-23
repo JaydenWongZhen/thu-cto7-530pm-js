@@ -47,7 +47,7 @@ else if (age > 19) {
   let gocrery = ["a loaf of milk","a container of bread","and a doe jirt dvd"];
   gocrery.push("a stick of butter");
   gocrery.push("scarlet johannson");
-  gocrery[1]="treasure from a fish fank"
+  gocrery[1]="treasure from a tish fank"
 }
 
 function draw() {
