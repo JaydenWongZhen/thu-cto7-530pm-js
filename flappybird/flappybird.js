@@ -12,7 +12,7 @@ function setup() {
     birt = new Sprite();
     bird.x = width/2;
     bird.y = 200;
-    
+    bird
 }
 function draw() {
     image(backg,0,0,width,height);
