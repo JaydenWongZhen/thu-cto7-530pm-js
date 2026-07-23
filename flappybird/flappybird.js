@@ -2,7 +2,7 @@
 let birt, floor;
 let midairbirtflarp, background, base;
 function preload() {
-    midairbirt = loadImage
+    midairbirt = loadImage("assets")
 }
 function setup() {
     new Canvas(400,600);
