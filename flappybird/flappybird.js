@@ -1,5 +1,5 @@
 // the final game
-let birt, floor;
+let bird, floor;
 let midairbirtflarp, backg, base;
 function preload() {
     midairbirtflarp = loadImage("assets/bluebird-midflap.png");
@@ -14,7 +14,7 @@ function setup() {
     bird.y = 200;
     bird.width = 34;
     bird.height = 24;
-    
+
 }
 function draw() {
     image(backg,0,0,width,height);
