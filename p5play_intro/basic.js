@@ -37,7 +37,7 @@ else if (age > 19) {
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
   let peepee = 19;
-  while (peepee > 1){
+  while (peepee > 0){
     console.log(peepee);
     peepee= peepee - 2;
     
