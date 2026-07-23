@@ -48,7 +48,7 @@ else if (age > 19) {
   gocrery.push("a stick of butter");
   gocrery.push("scarlet johannson");
   gocrery[1]="treasure from a tish fank";
-  textSize()
+  textSize(50);
 }
 
 function draw() {
