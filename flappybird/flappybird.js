@@ -12,5 +12,5 @@ function setup() {
 }
 function draw() {
     image(background,0,0,width,height);
-    image(base,0,height*3)
+    image(base,0,height-1)
 }
