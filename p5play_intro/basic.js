@@ -38,6 +38,7 @@ else if (age > 19) {
   // write your codes here
   let peepee = 19
   while (peepee > 1){
+    peepee -= 3
     
   }
   // --- Exercise: Array operations (groceries) ---
