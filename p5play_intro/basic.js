@@ -36,7 +36,7 @@ else if (age > 19) {
 }
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
-
+  let peepee = 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
