@@ -39,7 +39,8 @@ else if (age > 19) {
   let peepee = 19;
   while (peepee > 1){
     peepee -= 3;
-    c
+    console.log(peepee)
+    
   }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
