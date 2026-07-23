@@ -46,7 +46,7 @@ else if (age > 19) {
   // write your codes here
   let gocrery = ["a loaf of milk","a container of bread","and a doe jirt dvd"];
   gocrery.push("a stick of butter");
-  gocrery.push
+  gocrery.push("scarlet johannson");
 }
 
 function draw() {
