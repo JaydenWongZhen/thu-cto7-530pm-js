@@ -45,7 +45,7 @@ else if (age > 19) {
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
   let gocrery = ["a loaf of milk","a container of bread","and a doe jirt dvd"];
-  
+  gocrery.push()
 }
 
 function draw() {
