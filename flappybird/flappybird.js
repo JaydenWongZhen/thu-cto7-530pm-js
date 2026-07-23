@@ -3,7 +3,7 @@ let birt, floor;
 let midairbirtflarp, background, base;
 function preload() {
     midairbirtflarp = loadImage("assets/bluebird-midflap.png");
-    bg
+    background = loadImage("assets")
 }
 function setup() {
     new Canvas(400,600);
