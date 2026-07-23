@@ -15,7 +15,8 @@ function setup() {
     bird.width = 34;
     bird.height = 24;
     bird.img = midairbirtflarp;
-    bird.collider = "dynamic"
+    bird.collider = "dynamic";
+    bird.boi
 }
 function draw() {
     image(backg,0,0,width,height);
