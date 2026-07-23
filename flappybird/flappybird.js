@@ -9,6 +9,7 @@ function preload() {
 function setup() {
     new Canvas(400,600);
     background(255);
+    birt = new Sprite()
 }
 function draw() {
     image(backg,0,0,width,height);
