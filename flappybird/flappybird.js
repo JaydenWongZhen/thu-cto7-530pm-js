@@ -81,5 +81,4 @@ function spawnPipePair() {
     toppipe.img = pipeimg;
     toppipe.rotation=90
     pipegroup.add(toppipe);
-    
 }
