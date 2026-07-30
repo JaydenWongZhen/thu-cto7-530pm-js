@@ -63,3 +63,6 @@ function draw() {
     
 }
 
+function spawnPipePair() {
+    
+}
