@@ -53,7 +53,7 @@ function draw() {
         bird.img = midairbirdflap;
         bird.rotation = 0;
     }
-    else if (bird.vel.y) {
+    else if (bird.vel.y < -2) {
         bird.img = upbirdflap;
         bird.rotation = -45;
     }
