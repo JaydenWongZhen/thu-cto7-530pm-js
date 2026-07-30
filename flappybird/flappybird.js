@@ -46,7 +46,7 @@ function draw() {
         b.collider = "dynamic";
     }
     if (bird.vel.y >= 2) {
-        bird.img = downbir
+        bird.img = downbirdflap;
     }
 }
 
