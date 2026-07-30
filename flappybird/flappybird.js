@@ -63,9 +63,9 @@ function draw() {
         bird.img = midairbirdflap;
         bird.rotation = 0;
     }
-if (frameCount === 1) {
-    spawnPipePair()
-}    
+    if (frameCount === 1) {
+        spawnPipePair()
+    }    
 }
 
 function spawnPipePair() {
