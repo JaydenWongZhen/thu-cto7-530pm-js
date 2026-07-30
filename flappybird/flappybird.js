@@ -20,7 +20,7 @@ function setup() {
     world.gravity.y = 1;
     floor = new Sprite();
     floor.x = 0;
-    floor.y= height-height;
+    floor.y= height-height/4;
     floor.width = 400;
     floor.height = 125;
     floor.collider = "static";
