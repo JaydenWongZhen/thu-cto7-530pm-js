@@ -71,7 +71,7 @@ if (frameCount === 1) {
 function spawnPipePair() {
     let gap = 50;
     let midY=height/2;
-    let rand
+    let randY = midY + gap
     bottompipe = new Sprite(400,randY,52,320,"static");
     bottompipe.img = pipe;
     pipegroup.add(bottompipe);
