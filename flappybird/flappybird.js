@@ -43,5 +43,8 @@ function draw() {
         let b = new Sprite(mouseX,mouseY,10);
         b.collider = "dynamic";
     }
+    if (bird.vel.y >= 2) {
+        
+    }
 }
 
