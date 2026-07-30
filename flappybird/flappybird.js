@@ -16,8 +16,8 @@ function setup() {
     bird.height = 30;
     bird.img = midairbirtflarp;
     bird.collider = "dynamic";
-    bird.bounciness = 0.77;
-    world.gravity.y = 5;
+    bird.bounciness = 0.5;
+    world.gravity.y = 10;
     floor = new Sprite();
     floor.x = 200;
     floor.y= height-20;
