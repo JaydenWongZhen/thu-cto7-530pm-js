@@ -1,7 +1,7 @@
 // the final game
 let bird, floor;
 let midairbirdflap, backg, base;
-let upbirdflap
+let upbirdflap,down
 function preload() {
     midairbirtflarp = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
@@ -15,7 +15,7 @@ function setup() {
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
-    bird.img = midairbirtflarp;
+    bird.img = midairbirtflap;
     bird.collider = "dynamic";
     bird.bounciness = 0.5;
     world.gravity.y = 10;
