@@ -62,7 +62,9 @@ function draw() {
     }
     
 }
-if (frame)
+if (frameCount === 1) {
+    
+}
 function spawnPipePair() {
 
 }
