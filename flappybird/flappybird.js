@@ -1,6 +1,7 @@
 // the final game
 let bird, floor;
 let midairbirdflap, backg, base;
+let upbirdflap
 function preload() {
     midairbirtflarp = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
