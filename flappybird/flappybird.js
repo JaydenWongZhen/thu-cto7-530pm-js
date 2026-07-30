@@ -17,7 +17,7 @@ function setup() {
     bird.img = midairbirtflarp;
     bird.collider = "dynamic";
     bird.bounciness = 0.77;
-    world.gravity.y = 1;
+    world.gravity.y = 5;
     floor = new Sprite();
     floor.x = 200;
     floor.y= height-20;
@@ -31,7 +31,7 @@ function draw() {
     image(backg,0,0,width,height);
     if (kb.presses('space')) {
         bird.sleeping = false;
-        bird.vel.y=-1;
+        bird.vel.y=-5;
     }
 }
 
