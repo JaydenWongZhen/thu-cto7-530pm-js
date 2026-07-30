@@ -3,9 +3,11 @@ let bird, floor;
 let midairbirdflap, backg, base;
 let upbirdflap,downbirdflap;
 function preload() {
-    midairbirtflarp = loadImage("assets/bluebird-midflap.png");
+    midairbirdflap = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
-    base = loadImage("assets/base.png")
+    base = loadImage("assets/base.png");
+    downbirdflap = loadImage("assets/bluebird-downflap.png");
+    upbirdflap = loadImage("assets/bluebird-upflap.png");
 }
 function setup() {
     new Canvas(400,600);
@@ -44,7 +46,7 @@ function draw() {
         b.collider = "dynamic";
     }
     if (bird.vel.y >= 2) {
-        
+        bird.img = downbir
     }
 }
 
