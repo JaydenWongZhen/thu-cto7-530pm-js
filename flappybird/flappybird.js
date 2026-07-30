@@ -21,7 +21,7 @@ function setup() {
     floor = new Sprite();
     floor.x = 0;
     floor.y= height;
-    floor.width = width;
+    floor.width = 400;
     floor.height = height/4;
     floor.collider = "static";
     floor.img = base;
