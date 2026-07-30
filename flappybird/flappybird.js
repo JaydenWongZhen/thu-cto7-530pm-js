@@ -73,7 +73,7 @@ function spawnPipePair() {
     let midY=height/2;
     let randY = midY + gap/2 +200;
     bottompipe = new Sprite(400,randY,52,320,"static");
-    bottompipe.img = pipe;
+    bottompipe.img = pipeimg;
     pipegroup.add(bottompipe);
     pipegroup.layer = 0;
 }
