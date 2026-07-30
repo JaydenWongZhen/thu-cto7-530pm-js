@@ -49,13 +49,14 @@ function draw() {
         bird.img = downbirdflap;
         bird.rotation = 45;
     }
-    else if (bird.vel.y < 2 || bird.vel.y > -2) {
-        bird.img = midairbirdflap;
-        bird.rotation = 0;
-    }
     else if (bird.vel.y < -2) {
         bird.img = upbirdflap;
         bird.rotation = -45;
     }
+    else {
+        bird.img = midairbirdflap;
+        bird.rotation = 0;
+    }
+    
 }
 
