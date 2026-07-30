@@ -30,7 +30,8 @@ function setup() {
 function draw() {
     image(backg,0,0,width,height);
     if (kb.presses('space')) {
-        bird.sleepi
+        bird.sleeping = false;
+        
     }
 }
 
