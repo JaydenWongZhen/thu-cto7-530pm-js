@@ -3,6 +3,7 @@ let bird, floor;
 let midairbirdflap, backg, base;
 let upbirdflap,downbirdflap;
 let pipegroup;
+let pipeimg;
 function preload() {
     midairbirdflap = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
