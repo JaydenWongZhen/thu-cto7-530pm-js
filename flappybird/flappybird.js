@@ -24,7 +24,7 @@ function setup() {
     floor.width = width;
     floor.height = height/4;
     floor.collider = "static";
-    floor.img = b
+    floor.img = base;
 
 }
 function draw() {
