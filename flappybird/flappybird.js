@@ -38,7 +38,7 @@ function draw() {
     textSize(15);
     text("bird_sleep: " + bird.sleeping , 20, 40);
     text("velocity: " + round(bird.vel.y) , 20, 60);
-    text("frame")
+    text("frameCount ")
 
     if (kb.presses('space')) {
         bird.sleeping = false;
