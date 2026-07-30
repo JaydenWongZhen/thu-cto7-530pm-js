@@ -41,10 +41,10 @@ function draw() {
         bird.sleeping = false;
         bird.vel.y=-5;
     }
-    if (mouse.presses()) {
-        let b = new Sprite(mouseX,mouseY,10);
-        b.collider = "dynamic";
-    }
+    // if (mouse.presses()) {
+    //     let b = new Sprite(mouseX,mouseY,10);
+    //     b.collider = "dynamic";
+    // }
     if (bird.vel.y > 2) {
         bird.img = downbirdflap;
         bird.rotation = 45;
@@ -52,6 +52,9 @@ function draw() {
     else if (bird.vel.y < 2 || bird.vel.y > -2) {
         bird.img = midairbirdflap;
         bird.rotation = 0;
+    }
+    else if (bird.vel.y) {
+        bird.img
     }
 }
 
