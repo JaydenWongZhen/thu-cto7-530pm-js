@@ -47,6 +47,7 @@ function draw() {
     }
     if (bird.vel.y > 1) {
         bird.img = downbirdflap;
+        bird.rotation = 45;
     }
 }
 
