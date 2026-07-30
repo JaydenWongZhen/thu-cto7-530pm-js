@@ -77,5 +77,5 @@ function spawnPipePair() {
     pipegroup.add(bottompipe);
     pipegroup.layer = 0;
     
-    toppipe = new Sprite(400,randY)
+    toppipe = new Sprite(400,randY*-1,52,320,)
 }
