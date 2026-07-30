@@ -17,7 +17,7 @@ function setup() {
     bird.img = midairbirtflarp;
     bird.collider = "dynamic";
     bird.bounciness = 0.77;
-    world..y = 0.2;
+    world.gravity.y = 0.2;
 }
 function draw() {
     image(backg,0,0,width,height);
