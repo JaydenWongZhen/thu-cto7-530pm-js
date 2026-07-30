@@ -31,7 +31,7 @@ function draw() {
     image(backg,0,0,width,height);
     fill("red");
     textSize(15);
-    text(bird)
+    text("bird_sleep:")
 
     if (kb.presses('space')) {
         bird.sleeping = false;
