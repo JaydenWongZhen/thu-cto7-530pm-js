@@ -11,7 +11,7 @@ function preload() {
     base = loadImage("assets/base.png");
     downbirdflap = loadImage("assets/bluebird-downflap.png");
     upbirdflap = loadImage("assets/bluebird-upflap.png");
-    pipeimg = loadImage("assets/")
+    pipeimg = loadImage("assets/pipe")
 }
 function setup() {
     new Canvas(400,600);
