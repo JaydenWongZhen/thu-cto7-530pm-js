@@ -30,6 +30,8 @@ function setup() {
 function draw() {
     image(backg,0,0,width,height);
     // image(base,0,height-height/4,width,height/4);
-    if (kb.presses('space')) 
+    if (kb.presses('space')) {
+        
+    }
 }
 
