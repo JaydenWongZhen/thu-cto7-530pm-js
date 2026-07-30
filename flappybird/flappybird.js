@@ -22,6 +22,7 @@ function setup() {
     floor.x = 0;
     floor.y= height - height/4;
     floor.width = width
+    floor.height = height/4
 
 }
 function draw() {
