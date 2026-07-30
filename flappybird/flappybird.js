@@ -72,5 +72,6 @@ function spawnPipePair() {
     let gap = 50;
     let midY=height/2;
     bottompipe = new Sprite(400,someY,52,320,"static");
-    bottompipe.img
+    bottompipe.img = pipe;
+    pipe.Group
 }
