@@ -21,7 +21,7 @@ function setup() {
     floor = new Sprite();
     floor.x = 0;
     floor.y= height - height/4;
-    floor.width
+    floor.width = width
 
 }
 function draw() {
