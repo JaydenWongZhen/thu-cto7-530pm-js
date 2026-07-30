@@ -34,7 +34,7 @@ function draw() {
         bird.vel.y=-5;
     }
     if (mouse.presses()) {
-        let b = new Sprite(mouseX,mouseY)
+        let b = new Sprite(mouseX,mouseY,10)
     }
 }
 
