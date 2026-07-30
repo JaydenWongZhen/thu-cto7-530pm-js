@@ -32,7 +32,7 @@ function draw() {
     fill("red");
     textSize(15);
     text("bird_sleep: " + bird.sleeping , 20, 40);
-    text("velocity: ") + bird.vel.y , 20, 60
+    text("velocity: " + bird.vel.y , 20, 60);
 
     if (kb.presses('space')) {
         bird.sleeping = false;
