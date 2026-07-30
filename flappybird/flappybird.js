@@ -30,7 +30,7 @@ function setup() {
     floor.collider = "static";
     floor.img = base;
 
-    pip
+    pipegroup = new Group();
 }
 function draw() {
     image(backg,0,0,width,height);
