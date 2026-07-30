@@ -29,9 +29,10 @@ function setup() {
 }
 function draw() {
     image(backg,0,0,width,height);
-
-
+    fill("red");
     
+
+
     if (kb.presses('space')) {
         bird.sleeping = false;
         bird.vel.y=-5;
