@@ -62,7 +62,7 @@ function draw() {
     }
     
 }
-
+if (frame)
 function spawnPipePair() {
-    
+
 }
