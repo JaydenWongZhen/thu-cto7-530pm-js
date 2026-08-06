@@ -69,7 +69,7 @@ function draw() {
     //ca,era scroll
     bird.x += 3;
     camera.x = bird.x;
-    base.x
+    floor.x = bird.x;
 }
 
 function spawnPipePair() {
