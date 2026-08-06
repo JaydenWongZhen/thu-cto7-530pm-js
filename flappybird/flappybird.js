@@ -14,7 +14,7 @@ function preload() {
     upbirdflap = loadImage("assets/bluebird-upflap.png");
     pipeimg = loadImage("assets/pipe-green.png");
     gameoverimg = loadImage("assets/gameover.png");
-    startmessageimg = loadImage("assets/message/png");
+    startmessageimg = loadImage("assets/message.png");
 }
 function setup() {
     new Canvas(400,600);
