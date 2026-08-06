@@ -78,15 +78,15 @@ function draw() {
 }
 
 function spawnPipePair() {
-    let gap = 50;
+    let gap = 75;
     let midY=height/2;
     let randY = midY + gap/2 +200;
-    bottompipe = new Sprite(bird.x+200,randY,52,320,"static");
+    bottompipe = new Sprite(bird.x+400,randY,52,320,"static");
     bottompipe.img = pipeimg;
     pipegroup.add(bottompipe);
     
     randY = midY - gap/2 - 200;
-    toppipe = new Sprite(bird.x+200,randY,52,320,"static");
+    toppipe = new Sprite(bird.x+400,randY,52,320,"static");
     toppipe.img = pipeimg;
     toppipe.rotation=180;
     pipegroup.add(toppipe);
