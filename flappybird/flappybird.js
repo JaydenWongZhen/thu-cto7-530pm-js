@@ -20,7 +20,7 @@ function setup() {
     bird.x = width/2;
     bird.y = 200;
     bird.width = 25;
-    bird.height = 30;
+    bird.height = 25;
     bird.img = midairbirdflap;
     bird.collider = "dynamic";
     bird.bounciness = 0.5;
