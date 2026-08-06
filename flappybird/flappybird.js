@@ -68,7 +68,7 @@ function draw() {
     }    
     for (let p of pipegroup) {
         if(p.x < (bird.x - 200)){
-            p
+            p.remove();
         }
     }
     //ca,era scroll
