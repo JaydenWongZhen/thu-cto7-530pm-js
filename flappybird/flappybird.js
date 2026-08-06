@@ -63,7 +63,7 @@ function draw() {
         bird.img = midairbirdflap;
         bird.rotation = 0;
     }
-    if (frameCount === 1) {
+    if (frameCount%90 === 0) {
         spawnPipePair()
     }    
     //ca,era scroll
