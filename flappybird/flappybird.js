@@ -86,7 +86,7 @@ function spawnPipePair() {
     pipegroup.add(bottompipe);
     
     randY = midY - gap/2 - 200;
-    toppipe = new Sprite(400,randY,52,320,"static");
+    toppipe = new Sprite(bird.x+200,randY,52,320,"static");
     toppipe.img = pipeimg;
     toppipe.rotation=180;
     pipegroup.add(toppipe);
