@@ -76,6 +76,8 @@ function draw() {
     bird.x += 3;
     camera.x = bird.x;
     floor.x = bird.x;
+    //colison
+    if (bird.collides(floor))
 }
 
 function spawnPipePair() {
