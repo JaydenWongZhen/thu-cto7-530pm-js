@@ -5,7 +5,7 @@ let upbirdflap,downbirdflap;
 let pipegroup;
 let pipeimg;
 let bottompipe, toppipe;
-let gameover;
+let gameoverimg;
 function preload() {
     midairbirdflap = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
