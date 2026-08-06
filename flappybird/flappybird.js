@@ -66,7 +66,9 @@ function draw() {
     if (frameCount === 1) {
         spawnPipePair()
     }    
-    //ca,era
+    //ca,era scroll
+    bird.x += 3;
+    
 }
 
 function spawnPipePair() {
