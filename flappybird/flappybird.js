@@ -83,6 +83,7 @@ function draw() {
     if (bird.collides(floor) || bird.collides(pipegroup) || bird.y < 0) {
         gameover = new Sprite(bird.x,250,300,50,"none");
         gameover.img=gameoverimg;
+        gameover.layw
         noLoop();
     }
 }
