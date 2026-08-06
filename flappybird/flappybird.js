@@ -75,11 +75,13 @@ function spawnPipePair() {
     bottompipe = new Sprite(400,randY,52,320,"static");
     bottompipe.img = pipeimg;
     pipegroup.add(bottompipe);
-    pipegroup.layer = 0;
     
     randY = midY - gap/2 - 200;
     toppipe = new Sprite(400,randY,52,320,"static");
     toppipe.img = pipeimg;
     toppipe.rotation=180;
     pipegroup.add(toppipe);
+    
+    pipegroup.layer = 0;
+
 }
