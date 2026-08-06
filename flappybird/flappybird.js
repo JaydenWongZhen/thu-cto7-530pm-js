@@ -67,7 +67,7 @@ function draw() {
         spawnPipePair()
     }    
     for (let p of pipegroup) {
-        if(p.x ){
+        if(p.x < (bird.x - 200)){
 
         }
     }
