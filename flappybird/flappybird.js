@@ -77,7 +77,7 @@ function draw() {
     camera.x = bird.x;
     floor.x = bird.x;
     //colison
-    if (bird.collides(floor) || bird.collides(pipegroup)) {
+    if (bird.collides(floor) || bird.collides(pipegroup) || bird.y < 0) {
         noLoop();
     }
 }
