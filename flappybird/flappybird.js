@@ -77,7 +77,8 @@ function draw() {
     camera.x = bird.x;
     floor.x = bird.x;
     //colison
-    if (bird.collides(floor) ||) {}
+    if (bird.collides(floor) || bird.collides(pipegroup)) {}
+    
 }
 
 function spawnPipePair() {
