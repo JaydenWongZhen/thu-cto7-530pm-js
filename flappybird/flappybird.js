@@ -81,7 +81,7 @@ function spawnPipePair() {
     let gap = 50;
     let midY=height/2;
     let randY = midY + gap/2 +200;
-    bottompipe = new Sprite(400,randY,52,320,"static");
+    bottompipe = new Sprite(bird.x+200,randY,52,320,"static");
     bottompipe.img = pipeimg;
     pipegroup.add(bottompipe);
     
