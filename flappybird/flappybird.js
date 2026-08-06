@@ -80,6 +80,7 @@ function draw() {
     floor.x = bird.x;
     //colison
     if (bird.collides(floor) || bird.collides(pipegroup) || bird.y < 0) {
+        
         noLoop();
     }
 }
