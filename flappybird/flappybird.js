@@ -42,6 +42,7 @@ function draw() {
     text("bird_sleep: " + bird.sleeping , 20, 40);
     text("velocity: " + round(bird.vel.y) , 20, 60);
     text("frameCount: " + frameCount , 20, 80);
+    text("pipenumber:")
 
     if (kb.presses("space") || mouse.presses()) {
         bird.sleeping = false;
