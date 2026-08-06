@@ -80,7 +80,7 @@ function draw() {
     floor.x = bird.x;
     //colison
     if (bird.collides(floor) || bird.collides(pipegroup) || bird.y < 0) {
-        gameover = new Sprite(bird.x,);
+        gameover = new Sprite(bird.x,250,);
         noLoop();
     }
 }
