@@ -32,7 +32,7 @@ function setup() {
     floor.height = 125;
     floor.collider = "static";
     floor.img = base;
-    bird.v
+    bird.vel.x = 5;
     pipegroup = new Group();
 }
 function draw() {
