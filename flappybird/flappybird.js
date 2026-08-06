@@ -43,7 +43,7 @@ function draw() {
     text("velocity: " + round(bird.vel.y) , 20, 60);
     text("frameCount: " + frameCount , 20, 80);
 
-    if (kb.presses('space')) {
+    if (mouse.presses()) {
         bird.sleeping = false;
         bird.vel.y=-5;
     }
