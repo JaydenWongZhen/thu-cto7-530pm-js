@@ -66,7 +66,11 @@ function draw() {
     if (frameCount%90 === 0) {
         spawnPipePair()
     }    
-    for (let p of pipegroup)
+    for (let p of pipegroup) {
+        if(p.x ){
+
+        }
+    }
     //ca,era scroll
     bird.x += 3;
     camera.x = bird.x;
