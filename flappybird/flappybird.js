@@ -32,7 +32,7 @@ function setup() {
     floor.height = 125;
     floor.collider = "static";
     floor.img = base;
-
+    bird.v
     pipegroup = new Group();
 }
 function draw() {
@@ -81,7 +81,7 @@ function spawnPipePair() {
     toppipe.img = pipeimg;
     toppipe.rotation=180;
     pipegroup.add(toppipe);
-    
+
     pipegroup.layer = 0;
 
 }
