@@ -14,6 +14,7 @@ function setup() {
     floor.img = base;
     world.gravity.y=5;
     birb.bounciness = 1.1;
+    
 }
 function draw() {
     background("lightblue");
