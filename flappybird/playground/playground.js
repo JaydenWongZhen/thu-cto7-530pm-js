@@ -12,7 +12,7 @@ function setup() {
     birb.img=flapmid;
     floor = new Sprite(width/2,height-25,width,height/3,"static");
     floor.img = base;
-    bi
+    world.gravity.x=5;
 }
 function draw() {
 
