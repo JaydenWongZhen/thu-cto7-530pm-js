@@ -22,6 +22,7 @@ function draw() {
         birb.vel.y=-5;
     }
      textSize=16;
-     fill("red")
+     fill("red");
+     text()
 
 }
