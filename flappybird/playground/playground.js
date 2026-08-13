@@ -16,5 +16,5 @@ function setup() {
     birb.bounciness = 1.1;
 }
 function draw() {
-
+    background
 }
