@@ -53,6 +53,14 @@ function draw() {
     text("frameCount: " + frameCount , 20, 80);
     text("pipenumber: " + pipegroup.length, 20, 100);
 
+    
+    if (!startgam) {
+        return;
+    }
+    if (kb.presses("space") || mouse.presses()) {
+        startgam 
+    }
+    
     if (kb.presses("space") || mouse.presses()) {
         bird.sleeping = false;
         bird.vel.y=-5;
@@ -93,12 +101,6 @@ function draw() {
         noLoop();
     }
 
-    if (!startgam) {
-        return;
-    }
-    if (kb.presses("space") || mouse.presses()) {
-        startgam 
-    }
 }
 
 function spawnPipePair() {
