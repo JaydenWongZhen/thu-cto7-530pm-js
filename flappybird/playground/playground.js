@@ -10,8 +10,8 @@ function setup() {
     background(255);
     birb = new Sprite(25,25,width/2,height/2,"dynamic");
     birb.img=flapmid;
-    floor = new Sprite(width,height/3,0,height-height/3,);
-
+    floor = new Sprite(width,height/3,0,height-height/3,"static");
+    floor.
 }
 function draw() {
 
