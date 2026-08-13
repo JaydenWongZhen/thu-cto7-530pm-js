@@ -58,7 +58,9 @@ function draw() {
         return;
     }
     if (kb.presses("space") || mouse.presses()) {
-        startgam
+        startgam = true;
+        bird.visible = true;
+        
     }
 
     if (kb.presses("space") || mouse.presses()) {
