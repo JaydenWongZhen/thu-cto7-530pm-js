@@ -20,6 +20,7 @@ function draw() {
     background("lightblue");
     if (kb.presses("space")) {
         birb.vel.y=-5;
+        bir
     }
      textSize=16;
      fill("red");
