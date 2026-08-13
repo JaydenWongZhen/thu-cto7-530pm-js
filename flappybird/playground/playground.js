@@ -28,5 +28,5 @@ function draw() {
      text('birb.vel.y: ' + birb.vel.y , 20,60);
     text('from countr: ' + frameCount, 20,80);
     text("c_height: " + height , 20,100);
-    text(c)
+    text("c_width_")
 }
