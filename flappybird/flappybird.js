@@ -57,10 +57,10 @@ function draw() {
     if (!startgam) {
         return;
     }
-    if (kb.presses("space") || mouse.presses()) {
-        startgam 
-    }
-    
+    // if (kb.presses("space") || mouse.presses()) {
+    //     startgam 
+    // }
+
     if (kb.presses("space") || mouse.presses()) {
         bird.sleeping = false;
         bird.vel.y=-5;
