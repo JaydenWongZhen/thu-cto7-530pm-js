@@ -8,6 +8,7 @@ function preload() {
 function setup() {
     new Canvas(500,700);
     background(255);
+    birb = new SpeechRecognitionErrorEvent()
 }
 function draw() {
 
