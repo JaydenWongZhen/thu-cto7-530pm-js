@@ -20,10 +20,10 @@ function draw() {
     background("lightblue");
     if (kb.presses("space")) {
         birb.vel.y=-5;
-        bir
+        birb.sleep = false;
     }
      textSize=16;
      fill("red");
-     text("bifd")
+     text("birb.sleep:")
 
 }
