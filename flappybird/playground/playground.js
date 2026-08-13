@@ -18,7 +18,7 @@ function setup() {
 }
 function draw() {
     background("lightblue");
-    if (kb.presses("space") || MouseEvent.presses()) {
+    if (kb.presses("space")) {
         birb.vel.y=-5;
     }
 }
