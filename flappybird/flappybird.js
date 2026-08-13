@@ -89,6 +89,7 @@ function draw() {
         gameover.layer = 100;
         noLoop();
     }
+    
 }
 
 function spawnPipePair() {
