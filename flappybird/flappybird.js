@@ -60,7 +60,7 @@ function draw() {
     if (kb.presses("space") || mouse.presses()) {
         startgam = true;
         bird.visible = true;
-        bird.visible = t
+        startmessage
     }
 
     if (kb.presses("space") || mouse.presses()) {
