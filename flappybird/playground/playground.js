@@ -17,4 +17,5 @@ function setup() {
 }
 function draw() {
     background("lightblue");
+    if (kb.presses("space") || MouseEvent.presses())
 }
