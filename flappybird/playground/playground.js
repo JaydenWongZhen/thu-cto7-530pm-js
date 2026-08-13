@@ -1,5 +1,6 @@
 // write your codes here
-let birb,flo
+let birb,floor;
+let flapmid
 function preload() {
 
 }
