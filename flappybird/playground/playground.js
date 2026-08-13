@@ -3,7 +3,7 @@ function preload() {
 
 }
 function setup() {
-    function
+    new Canvas()
 }
 function draw() {
 
