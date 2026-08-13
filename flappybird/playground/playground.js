@@ -3,7 +3,8 @@ function preload() {
 
 }
 function setup() {
-    new Canvas()
+    new Canvas(500,700);
+    background(2)
 }
 function draw() {
 
