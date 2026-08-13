@@ -21,5 +21,5 @@ function draw() {
     if (kb.presses("space")) {
         birb.vel.y=-5;
     }
-    
+     
 }
