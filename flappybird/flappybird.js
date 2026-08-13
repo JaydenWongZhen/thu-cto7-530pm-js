@@ -40,6 +40,7 @@ function setup() {
     pipegroup = new Group();
      startmessage = new Sprite(width/2,height/2,50,50,"none");
     startmessage.img = startmessageimg;
+    bird.collider = "static"
 }
 function draw() {
     image(backg,0,0,width,height);
