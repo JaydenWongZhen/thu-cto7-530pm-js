@@ -23,7 +23,7 @@ function draw() {
         birb.sleep = false;
     }
     if (mouse.presses()) {
-        
+        let shit
     }
      textSize=16;
      fill("red");
