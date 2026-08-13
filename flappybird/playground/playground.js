@@ -10,7 +10,7 @@ function setup() {
     background("lightblue");
     birb = new Sprite(width/2,height/2,25,25,"dynamic");
     birb.img=flapmid;
-    floor = new Sprite(0,height-height/3,width,height/3,"static");
+    floor = new Sprite(width/2,height-height/3,width,height/3,"static");
     floor.img = base;
 }
 function draw() {
