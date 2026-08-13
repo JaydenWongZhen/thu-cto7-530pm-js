@@ -13,7 +13,7 @@ function setup() {
     floor = new Sprite(width/2,height-25,width,125,"static");
     floor.img = base;
     world.gravity.y=5;
-    birb.bounciness = 1.1;
+    birb.bounciness = .1;
     birb.sleep = true;
 }
 function draw() {
