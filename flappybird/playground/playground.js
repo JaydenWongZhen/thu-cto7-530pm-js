@@ -3,8 +3,8 @@ function preload() {
 
 }
 function setup() {
-
+    function
 }
 function draw() {
-    
+
 }
