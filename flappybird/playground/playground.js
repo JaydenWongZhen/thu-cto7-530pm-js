@@ -14,11 +14,11 @@ function setup() {
     floor.img = base;
     world.gravity.y=5;
     birb.bounciness = 1.1;
-    if (kb.presses("space") || MouseEvent.presses()) {
-        birb.vel.y=-5;
-    }    
+    
 }
 function draw() {
     background("lightblue");
-
+    if (kb.presses("space") || MouseEvent.presses()) {
+        birb.vel.y=-5;
+    }
 }
