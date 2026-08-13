@@ -22,6 +22,7 @@ function draw() {
         birb.vel.y=-5;
         birb.sleep = false;
     }
+    if (mouse)
      textSize=16;
      fill("red");
      text("birb.sleep: " + birb.sleep , 20,40);
