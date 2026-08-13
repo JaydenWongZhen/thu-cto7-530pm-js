@@ -94,7 +94,7 @@ function draw() {
         return;
     }
     if (kb.presses("space") || mouse.presses()) {
-        startgam
+        startgam 
     }
 }
 
