@@ -8,8 +8,8 @@ function preload() {
 function setup() {
     new Canvas(500,700);
     background(255);
-    birb = new Sprite();
-    
+    birb = new Sprite(25,25);
+
 }
 function draw() {
 
