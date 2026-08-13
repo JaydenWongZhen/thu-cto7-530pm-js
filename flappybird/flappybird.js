@@ -6,7 +6,7 @@ let pipegroup;
 let pipeimg;
 let bottompipe, toppipe;
 let gameoverimg, startmessageimg;
-let startgam = "False";
+let startgam = "false";
 function preload() {
     midairbirdflap = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
@@ -42,7 +42,7 @@ function setup() {
     startmessage = new Sprite(width/2,height/2,50,50,"none");
     startmessage.img = startmessageimg;
     bird.collider = "static";
-    bird.visible = 'False';
+    bird.visible = 'false';
 }
 function draw() {
     image(backg,0,0,width,height);
