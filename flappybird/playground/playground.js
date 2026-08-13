@@ -24,6 +24,7 @@ function draw() {
     }
     if (mouse.presses()) {
         let shitfart = new Sprite(mouseX,mouseY,10);
+        shitfart
     }
      textSize=16;
      fill("red");
