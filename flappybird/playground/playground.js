@@ -27,5 +27,5 @@ function draw() {
      text("birb.sleep: " + birb.sleep , 20,40);
      text('birb.vel.y: ' + birb.vel.y , 20,60);
     text('from countr: ' + frameCount, 20,80);
-    text("c")
+    text("c_height: ")
 }
