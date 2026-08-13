@@ -10,7 +10,7 @@ function setup() {
     background(255);
     birb = new Sprite(25,25,width/2,height/2,"dynamic");
     birb.img=flapmid;
-    
+    b
 
 }
 function draw() {
