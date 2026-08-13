@@ -6,6 +6,7 @@ let pipegroup;
 let pipeimg;
 let bottompipe, toppipe;
 let gameoverimg, startmessageimg;
+let startgam
 function preload() {
     midairbirdflap = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
