@@ -37,7 +37,7 @@ function setup() {
     floor.img = base;
     // bird.vel.x = 1;
     pipegroup = new Group();
-    startmessageimg = new Sprite(width/2,height/2,50,50,"none");
+    startmessage = new Sprite(width/2,height/2,50,50,"none");
     startmessageimg.img = startmessageimg
 }
 function draw() {
