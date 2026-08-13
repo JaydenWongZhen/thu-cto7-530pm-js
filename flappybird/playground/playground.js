@@ -23,7 +23,7 @@ function draw() {
         birb.sleep = false;
     }
     if (mouse.presses()) {
-        let shitfart = new Sprite(mouseX,mousey,)
+        let shitfart = new Sprite(mouseX,mouseY,)
     }
      textSize=16;
      fill("red");
