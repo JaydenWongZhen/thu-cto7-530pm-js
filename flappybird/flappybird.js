@@ -38,7 +38,7 @@ function setup() {
     // bird.vel.x = 1;
     pipegroup = new Group();
     startmessageimg = new Sprite(width/2,height/2,50,50,"none");
-    startmessageimg.img = s
+    startmessageimg.img = startmessageimg
 }
 function draw() {
     image(backg,0,0,width,height);
