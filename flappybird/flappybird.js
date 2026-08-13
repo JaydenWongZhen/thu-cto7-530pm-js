@@ -93,7 +93,9 @@ function draw() {
     if (!startgam) {
         return;
     }
-    if (kb.presses("space") || mouse.presses())
+    if (kb.presses("space") || mouse.presses()) {
+        
+    }
 }
 
 function spawnPipePair() {
