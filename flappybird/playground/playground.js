@@ -23,6 +23,6 @@ function draw() {
     }
      textSize=16;
      fill("red");
-     text()
+     text("bifd")
 
 }
