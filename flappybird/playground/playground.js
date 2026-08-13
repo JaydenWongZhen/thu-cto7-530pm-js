@@ -9,7 +9,8 @@ function setup() {
     new Canvas(500,700);
     background(255);
     birb = new Sprite(25,25,width/2,height/2,"dynamic");
-    birb.img=flapmid
+    birb.img=flapmid;
+    
 
 }
 function draw() {
