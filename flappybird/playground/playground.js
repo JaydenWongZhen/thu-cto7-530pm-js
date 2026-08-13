@@ -3,7 +3,7 @@ let birb,floor;
 let flapmid,base;
 function preload() {
     flapmid = loadImage("assets/bluebird-midflap.png");
-    
+    base = loadImage("assets")
 }
 function setup() {
     new Canvas(500,700);
