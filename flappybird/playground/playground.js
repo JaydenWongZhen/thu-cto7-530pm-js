@@ -24,6 +24,6 @@ function draw() {
     }
      textSize=16;
      fill("red");
-     text("birb.sleep:")
+     text("birb.sleep: " + birb.sleep , 20,40);
 
 }
