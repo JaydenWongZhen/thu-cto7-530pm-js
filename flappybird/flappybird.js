@@ -63,7 +63,7 @@ function draw() {
         startmessage.visible=false;
 
         bird.visible = true;
-        bird.collider = 'dynamic'
+        bird.collider = 'dynamic';
     }
 
     if (kb.presses("space") || mouse.presses()) {
