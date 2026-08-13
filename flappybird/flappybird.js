@@ -89,7 +89,8 @@ function draw() {
         noLoop();
     }
      startmessage = new Sprite(width/2,height/2,50,50,"none");
-    startmessage.img = startmessageimg   
+    startmessage.img = startmessageimg;
+    
 }
 
 function spawnPipePair() {
