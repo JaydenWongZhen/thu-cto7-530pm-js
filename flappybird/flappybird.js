@@ -41,7 +41,7 @@ function setup() {
      startmessage = new Sprite(width/2,height/2,50,50,"none");
     startmessage.img = startmessageimg;
     bird.collider = "static";
-    bird.visible = 'False'
+    bird.visible = 'False';
 }
 function draw() {
     image(backg,0,0,width,height);
