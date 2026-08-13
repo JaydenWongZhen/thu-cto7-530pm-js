@@ -2,7 +2,7 @@
 let birb,floor;
 let flapmid,base;
 function preload() {
-    flapmid = loadImage("assets/blue");
+    flapmid = loadImage("assets/y");
 }
 function setup() {
     new Canvas(500,700);
