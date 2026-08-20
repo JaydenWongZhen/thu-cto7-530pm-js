@@ -7,7 +7,7 @@ function setup() {
     new Canvas(400,600);
     background("skyblue");
     digitvar0 = new Sprite();
-    i
+    digitvar0 
 }
 function draw() {
 
