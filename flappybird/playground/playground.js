@@ -1,6 +1,6 @@
 let digitvar;
 let digitimagearray = [];
-let score = 10;
+let score = 0;
 function preload() {
     let prefix = "assets/";
     let suffix = ".png";
