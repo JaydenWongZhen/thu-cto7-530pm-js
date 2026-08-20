@@ -15,11 +15,11 @@ function setup() {
     background("skyblue");
     digitvar = new Sprite();
     digitvar.collider = "none";
-    digitvar.img = digitimagearray[score];
+
     digitvar.y=50;
     digitvar.width=24;
     digitvar.height=36;
 }
 function draw() {
-
+    digitvar.img = digitimagearray[score];
 }
