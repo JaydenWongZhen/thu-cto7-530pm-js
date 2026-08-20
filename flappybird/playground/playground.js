@@ -5,7 +5,8 @@ let day,night;
 function preload() {
     flapmid = loadImage("assets/bluebird-midflap.png");
     base = loadImage("assets/base.png");
-    day= loadImage("assets/background-day.png")
+    day= loadImage("assets/background-day.png");
+    
 }
 function setup() {
     new Canvas(400,600);
