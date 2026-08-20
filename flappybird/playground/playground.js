@@ -36,7 +36,9 @@ function draw() {
     if (frameCount%1000  === 0) {
         isday = false;
     }
-    if (! isday) {}
+    if (! isday) {
+        image(night,0,0,width,height);
+    }
      textSize=16;
      fill("red");
      text("birb.sleep: " + birb.sleep , 20,40);
