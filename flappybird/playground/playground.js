@@ -29,4 +29,5 @@ function draw() {
     if (kb.presses("down")) {
         score = score -1;
     }
+    constrain 
 }
