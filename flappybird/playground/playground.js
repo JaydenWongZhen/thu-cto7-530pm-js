@@ -39,6 +39,7 @@ function drawScore() {
     let scorestr = str(score);
     let digitvararray = scorestr.split(" ");
     print(digitvararray.length);
+    print(digitvararray)
     if (score > 10) {
         noLoop();
     }
