@@ -56,7 +56,8 @@ function drawScore() {
         num.img = digitimagearray[one];
         num.x = middle + offset;
         num.w = 25;
-        s
+        num.h = 36;
+        
     }
 }
 function moveGroup() {
