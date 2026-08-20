@@ -42,6 +42,7 @@ function draw() {
     drawScore()
 }
 function drawScore() {
+    scoreGroup
     let scorestr = str(score);
     let digitvararray = scorestr.split("");
     // print(digitvararray.length);
