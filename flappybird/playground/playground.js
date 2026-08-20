@@ -1,4 +1,4 @@
-let digitvar
+let digitvar0, digitimage;
 function preload() {
 
 }
