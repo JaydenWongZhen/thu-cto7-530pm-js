@@ -2,7 +2,7 @@ function preload() {
 
 }
 function setup() {
-    newCanvas(400,600);
+    new Canvas(400,600);
     background("sky blue");
 }
 function draw() {
