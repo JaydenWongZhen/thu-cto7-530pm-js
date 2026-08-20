@@ -54,7 +54,8 @@ function drawScore() {
     for (let one of digitvararray) {
         let num = new Sprite();
         score.img = digitimagearray[one];
-        score.x
+        score.x = middle + offset;
+        
     }
 }
 function moveGroup() {
