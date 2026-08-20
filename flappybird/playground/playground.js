@@ -7,7 +7,9 @@ function setup() {
     new Canvas(400,600);
     background("skyblue");
     digitvar0 = new Sprite();
-    digitvar0.collider = none
+    digitvar0.collider = NamedNodeMap;
+    digitvar0.img = digitimage0;
+    
 }
 function draw() {
 
