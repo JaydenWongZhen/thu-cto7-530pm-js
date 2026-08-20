@@ -32,5 +32,5 @@ function draw() {
     score = constrain(0,9);
     textSize = 15;
     fill("blue");
-    text("score: " + score)
+    text("score: " + score,20,20);
 }
