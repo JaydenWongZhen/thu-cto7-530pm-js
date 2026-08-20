@@ -49,6 +49,7 @@ function drawScore() {
     // if (score > 10) {
     //     noLoop();
     // }
+    let middle = width
 }
 function moveGroup() {
 
