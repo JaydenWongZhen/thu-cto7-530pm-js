@@ -2,7 +2,7 @@
 let birb,floor;
 let flapmid,base;
 let day,night;
-let day = true;
+let isday = true;
 function preload() {
     flapmid = loadImage("assets/bluebird-midflap.png");
     base = loadImage("assets/base.png");
@@ -30,8 +30,8 @@ function draw() {
         let shitfart = new Sprite(mouseX,mouseY,10);
         shitfart.collider = "dynamic";
     }
-    if (day) {
-        image();
+    if (isday) {
+        image(day,0,0,width,height);
     }
      textSize=16;
      fill("red");
