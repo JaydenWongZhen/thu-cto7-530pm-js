@@ -1,4 +1,4 @@
-let dihio
+let digitvar
 function preload() {
 
 }
