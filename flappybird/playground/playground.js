@@ -59,7 +59,7 @@ function drawScore() {
         num.w = 25;
         num.h = 36;
         offset += 25;
-        scoreGroup.add(s);
+        scoreGroup.add(num);
     }
 }
 function moveGroup() {
