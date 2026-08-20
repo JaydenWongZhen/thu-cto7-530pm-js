@@ -6,7 +6,7 @@ function preload() {
     let filename = "";
     for (let i=0; i <= 10; i++) {
         filename = prefix + i + suffix;
-        digitimagearray[i] = loadImage(filename)
+        digitimagearray[i] = loadImage(filename);
     }
 }
 function setup() {
