@@ -29,7 +29,7 @@ function draw() {
     if (kb.presses("down")) {
         score = score -1;
     }
-    score = constrain(score,0,Infinity);
+    score = constrain(score,0,);
     textSize = 15;
     fill("blue");
     text("score: " + score,20,20);
