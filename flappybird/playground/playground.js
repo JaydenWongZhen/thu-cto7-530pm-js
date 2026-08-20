@@ -2,5 +2,5 @@ function preload() {
 
 }
 function setup() {
-    newCanvas
+    newCanvas(400,600);
 }
