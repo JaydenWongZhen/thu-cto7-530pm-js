@@ -6,7 +6,8 @@ function preload() {
 function setup() {
     new Canvas(400,600);
     background("skyblue");
-    digit
+    digitvar0 = new Sprite();
+    i
 }
 function draw() {
 
