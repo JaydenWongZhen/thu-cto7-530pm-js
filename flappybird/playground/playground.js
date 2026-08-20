@@ -57,7 +57,8 @@ function drawScore() {
         num.x = middle + offset;
         num.w = 25;
         num.h = 36;
-        
+        offset += 25;
+        scoreGroup
     }
 }
 function moveGroup() {
