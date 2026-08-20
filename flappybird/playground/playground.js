@@ -1,7 +1,8 @@
 let digitvar0, digitimagearray = [];
 let score = 0;
 function preload() {
-    let prefix = "assets/"
+    let prefix = "assets/";
+    let suffix = ".png";
 }
 function setup() {
     new Canvas(400,600);
