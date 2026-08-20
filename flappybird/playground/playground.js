@@ -36,7 +36,7 @@ function draw() {
 }
 function drawScore() {
     let scorestr = str(score);
-    let digit
+    let digitvararray = scorestr
 }
 function moveGroup() {
 
