@@ -1,10 +1,11 @@
 // write your codes here
 let birb,floor;
 let flapmid,base;
-let day,
+let day,night;
 function preload() {
     flapmid = loadImage("assets/bluebird-midflap.png");
     base = loadImage("assets/base.png");
+    day =
 }
 function setup() {
     new Canvas(400,600);
