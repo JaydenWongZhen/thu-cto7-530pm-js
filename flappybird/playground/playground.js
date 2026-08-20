@@ -37,7 +37,7 @@ function draw() {
 function drawScore() {
     let scorestr = str(score);
     let digitvararray = scorestr.split(" ");
-    
+    print(digitvararray.length
 }
 function moveGroup() {
 
