@@ -2,6 +2,7 @@
 let birb,floor;
 let flapmid,base;
 let day,night;
+let day = ture
 function preload() {
     flapmid = loadImage("assets/bluebird-midflap.png");
     base = loadImage("assets/base.png");
