@@ -33,6 +33,7 @@ function draw() {
     textSize = 15;
     fill("blue");
     text("score: " + score,20,20);
+    drawScore()
 }
 function drawScore() {
     let scorestr = str(score);
