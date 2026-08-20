@@ -1,4 +1,5 @@
-let digitvar, digitimagearray = [];
+let digitvar;
+let digitimagearray = [];
 let score = 6;
 function preload() {
     let prefix = "assets/";
