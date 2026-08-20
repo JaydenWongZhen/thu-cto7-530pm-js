@@ -44,9 +44,9 @@ function drawScore() {
     // print(digitvararray.length);
     // print(digitvararray[0]);
     // print(digitvararray[1]);
-    if (score > 10) {
-        noLoop();
-    }
+    // if (score > 10) {
+    //     noLoop();
+    // }
 }
 function moveGroup() {
 
