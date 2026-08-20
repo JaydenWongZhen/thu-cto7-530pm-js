@@ -16,7 +16,7 @@ function setup() {
     digitvar = new Sprite();
     digitvar.collider = "none";
     digitvar.img = digitimagearray[score];
-    digitvar.y=20;
+    digitvar.y=50;
     digitvar.width=24;
     digitvar.height=36;
 }
