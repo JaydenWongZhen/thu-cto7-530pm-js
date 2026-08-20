@@ -22,7 +22,7 @@ function setup() {
 }
 function draw() {
     background("skyblue");
-    digitvar.img = digitimagearray[score];
+    // digitvar.img = digitimagearray[score];
     if (kb.presses("up")) {
         score = score +1;
     }
