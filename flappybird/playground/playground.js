@@ -27,6 +27,6 @@ function draw() {
         score += 1;
     }
     if (kb.presses("down")) {
-        score -= 1;
+        score
     }
 }
