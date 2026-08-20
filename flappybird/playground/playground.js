@@ -53,9 +53,9 @@ function drawScore() {
     let offset = 0;
     for (let one of digitvararray) {
         let num = new Sprite();
-        score.img = digitimagearray[one];
-        score.x = middle + offset;
-        score.w = 25;
+        num.img = digitimagearray[one];
+        num.x = middle + offset;
+        num.w = 25;
         s
     }
 }
