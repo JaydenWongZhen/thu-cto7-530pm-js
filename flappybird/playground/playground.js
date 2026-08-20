@@ -9,7 +9,7 @@ function setup() {
     digitvar0 = new Sprite();
     digitvar0.collider = "none";
     digitvar0.img = digitimage0;
-    digitvar0.y=10;
+    digitvar0.y=20;
 }
 function draw() {
 
