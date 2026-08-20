@@ -35,7 +35,8 @@ function draw() {
     text("score: " + score,20,20);
 }
 function drawScore() {
-    let scorestr
+    let scorestr = str(score);
+    
 }
 function moveGroup() {
 
