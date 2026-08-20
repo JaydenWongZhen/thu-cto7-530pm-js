@@ -11,7 +11,7 @@ function setup() {
     digitvar0.img = digitimage0;
     digitvar0.y=20;
     digitvar0.width=24;
-    digitvar0.height=
+    digitvar0.height=36;
 }
 function draw() {
 
