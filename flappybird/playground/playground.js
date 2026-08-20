@@ -9,7 +9,8 @@ function setup() {
     digitvar0 = new Sprite();
     digitvar0.collider = NamedNodeMap;
     digitvar0.img = digitimage0;
-    digitvar0.x=w
+    digitvar0.x=width/2
+    digitvar0.y=10
 }
 function draw() {
 
