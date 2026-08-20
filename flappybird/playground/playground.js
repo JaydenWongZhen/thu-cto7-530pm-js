@@ -1,6 +1,7 @@
 // write your codes here
 let birb,floor;
 let flapmid,base;
+let day,
 function preload() {
     flapmid = loadImage("assets/bluebird-midflap.png");
     base = loadImage("assets/base.png");
