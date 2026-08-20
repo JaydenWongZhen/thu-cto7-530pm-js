@@ -34,7 +34,7 @@ function draw() {
         image(day,0,0,width,height);
     }
     if (frameCount%1000  === 0) {
-        isday =;
+        isday = !isday;
     }
     if (! isday) {
         image(night,0,0,width,height);
