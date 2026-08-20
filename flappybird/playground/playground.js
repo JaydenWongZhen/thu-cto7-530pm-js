@@ -1,4 +1,5 @@
 let digitvar0, digitimage0;
+let score = 69
 function preload() {
  digitimage0 = ("assets/0.png");
 }
