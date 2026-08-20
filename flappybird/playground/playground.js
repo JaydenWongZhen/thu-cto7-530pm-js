@@ -33,7 +33,7 @@ function draw() {
     if (isday) {
         image(day,0,0,width,height);
     }
-    if (frameCount%100 === 0) {
+    if (frameCount%1000  === 0) {
         isday = false;
     }
      textSize=16;
