@@ -39,7 +39,7 @@ function drawScore() {
     let digitvararray = scorestr.split(" ");
     print(digitvararray.length);
     if (score > 10) {
-        
+        noLoop();
     }
 }
 function moveGroup() {
