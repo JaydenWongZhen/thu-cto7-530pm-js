@@ -29,6 +29,7 @@ function draw() {
         let shitfart = new Sprite(mouseX,mouseY,10);
         shitfart.collider = "dynamic";
     }
+    if
      textSize=16;
      fill("red");
      text("birb.sleep: " + birb.sleep , 20,40);
