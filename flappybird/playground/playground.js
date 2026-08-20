@@ -5,7 +5,7 @@ function preload() {
     let suffix = ".png";
     let filename = "";
     for (let i=0; i <= 10; i++) {
-
+        filename = prefix
     }
 }
 function setup() {
