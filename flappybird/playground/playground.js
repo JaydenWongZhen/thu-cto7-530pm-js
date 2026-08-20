@@ -29,6 +29,7 @@ function draw() {
     if (kb.presses("down")) {
         score = score -1;
     }
+    if (kb.presses("2"))
     score = constrain(score,0,9.9999e+5);
     textSize = 15;
     fill("blue");
