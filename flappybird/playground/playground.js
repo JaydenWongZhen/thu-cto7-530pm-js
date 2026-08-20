@@ -10,7 +10,7 @@ function setup() {
     digitvar0.collider = "none";
     digitvar0.img = digitimage0;
     digitvar0.y=20;
-    digitvar0.width=
+    digitvar0.width=1
 }
 function draw() {
 
