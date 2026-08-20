@@ -19,7 +19,7 @@ function setup() {
     digitvar.y=50;
     digitvar.width=24;
     digitvar.height=36;
-    scoregroup = new moveGroup()
+    scoregroup = new Group()
 }
 function draw() {
     background("skyblue");
