@@ -3,6 +3,7 @@ let score = 0;
 function preload() {
     let prefix = "assets/";
     let suffix = ".png";
+    let filename = ""
 }
 function setup() {
     new Canvas(400,600);
