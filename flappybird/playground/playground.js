@@ -1,4 +1,4 @@
-let digitvar0, digitimagearray = [];
+let digitvar, digitimagearray = [];
 let score = 0;
 function preload() {
     let prefix = "assets/";
@@ -8,12 +8,12 @@ function preload() {
 function setup() {
     new Canvas(400,600);
     background("skyblue");
-    digitvar0 = new Sprite();
-    digitvar0.collider = "none";
-    digitvar0.img = digitimage0;
-    digitvar0.y=20;
-    digitvar0.width=24;
-    digitvar0.height=36;
+    digitvar = new Sprite();
+    digitvar.collider = "none";
+    digitvar.img = digitimage0;
+    digitvar.y=20;
+    digitvar.width=24;
+    digitvar.height=36;
 }
 function draw() {
 
