@@ -5,7 +5,7 @@ function preload() {
     let prefix = "assets/";
     let suffix = ".png";
     let filename = "";
-    for (let i=0; i <= 10; i++) {
+    for (let i=0; i < 10; i++) {
         filename = prefix + i + suffix;
         digitimagearray[i] = loadImage(filename);
     }
