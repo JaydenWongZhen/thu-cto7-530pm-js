@@ -31,7 +31,7 @@ function draw() {
         shitfart.collider = "dynamic";
     }
     if (day) {
-        
+        image
     }
      textSize=16;
      fill("red");
