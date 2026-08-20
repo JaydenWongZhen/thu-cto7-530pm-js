@@ -21,5 +21,6 @@ function setup() {
     digitvar.height=36;
 }
 function draw() {
+    background("skyblue");
     digitvar.img = digitimagearray[score];
 }
