@@ -53,8 +53,8 @@ function drawScore() {
     let offset = 0;
     for (let one of digitvararray) {
         let num = new Sprite();
-        score.img = digitimagearray[one]
-        
+        score.img = digitimagearray[one];
+        score.x
     }
 }
 function moveGroup() {
