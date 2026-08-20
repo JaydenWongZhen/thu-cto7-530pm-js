@@ -20,7 +20,7 @@ function setup() {
     digitvar.width=24;
     digitvar.height=36;
     scoregroup = new Group();
-    scoregroup.collider = "none"
+    scoregroup.collider = "none";
 }
 function draw() {
     background("skyblue");
