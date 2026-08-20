@@ -14,7 +14,7 @@ function setup() {
     background("skyblue");
     digitvar = new Sprite();
     digitvar.collider = "none";
-    digitvar.img = digitimage0;
+    digitvar.img = digitimagearray;
     digitvar.y=20;
     digitvar.width=24;
     digitvar.height=36;
