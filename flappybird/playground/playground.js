@@ -30,4 +30,6 @@ function draw() {
         score = score -1;
     }
     score = constrain(0,9);
+    textSize = 15;
+    
 }
