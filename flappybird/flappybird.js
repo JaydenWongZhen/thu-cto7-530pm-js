@@ -118,7 +118,9 @@ function draw() {
         gameover.layer = 100;
         noLoop();
     }
-    for (let p of pipegroup) {}
+    for (let p of pipegroup) {
+        let pipeRightEdge = p.x + p.w/2
+    }
     drawScore();
 }
 
