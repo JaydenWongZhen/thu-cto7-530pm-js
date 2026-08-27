@@ -65,6 +65,7 @@ function drawScore() {
         num.h = 36;
         offset += 25;
         scoreGroup.add(num);
+        scoreGroup.layer = 100
     }
 }
 function moveGroup() {
