@@ -33,9 +33,9 @@ function draw() {
         score = score -1;
     }
     if (kb.presses("2")) {
-        score = round(random(10,99));
+        score = round(random(0,99));
     }
-    score = constrain(score,0,99);
+    score = constrain(score,0,999);
     textSize = 15;
     fill("blue");
     text("score: " + score,20,20);
