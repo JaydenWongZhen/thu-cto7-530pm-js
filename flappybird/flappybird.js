@@ -118,7 +118,7 @@ function draw() {
         gameover.layer = 100;
         noLoop();
     }
-
+    drawScore();
 }
 
 function spawnPipePair() {
@@ -136,7 +136,7 @@ function spawnPipePair() {
     pipegroup.add(toppipe);
 
     pipegroup.layer = 0;
-    drawScore();
+
 }
 function drawScore() {
     scoreGroup.removeAll();
