@@ -123,7 +123,9 @@ function draw() {
         let birdLeftEdge = bird.x - bird.w/2;
 
         if (p.passed === false) {
-            
+            if (pipeRightEdge < birdLeftEdge) {
+                
+            }
         }
     }
     drawScore();
