@@ -31,7 +31,7 @@ function draw() {
     if (kb.presses("down")) {
         score = score -1;
     }
-        if (kb.presses("3")) {
+    if (kb.presses("3")) {
         score = round(random(100,999));
     }
     if (kb.presses("3")) {
