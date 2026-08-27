@@ -125,7 +125,7 @@ function draw() {
         if (p.passed === false) {
             if (pipeRightEdge < birdLeftEdge) {
                 p.passed = true;
-                score++
+                score++;
             }
         }
     }
