@@ -138,3 +138,23 @@ function spawnPipePair() {
     pipegroup.layer = 0;
     drawScore();
 }
+function drawScore() {
+    scoreGroup.removeAll();
+    let scorestr = str(score);
+    let digitvararray = scorestr.split("");
+    let middle = camera.x;
+    let offset = 0;
+    for (let one of digitvararray) {
+        let num = new Sprite();
+        num.img = digitimagearray[one];
+        num.x = middle + offset;
+        num.y = 50;
+        num.w = 25;
+        num.h = 36;
+        offset += 25;
+        scoreGroup.add(num);
+        scoreGroup.layer = 1000;
+        scoreGroup.collider = "none";
+    }
+    moveGroup();
+}
