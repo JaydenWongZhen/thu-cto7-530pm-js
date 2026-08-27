@@ -68,7 +68,7 @@ function drawScore() {
         scoreGroup.layer = 1000;
         scoreGroup.collider = "none";
     }
-    
+    moveGroup();
 }
 function moveGroup() {
     let count = scoreGroup.length;
