@@ -56,7 +56,7 @@ function drawScore() {
         let num = new Sprite();
         num.img = digitimagearray[one];
         num.x = middle + offset;
-        num.y = 
+        num.y = 50;
         num.w = 25;
         num.h = 36;
         offset += 25;
