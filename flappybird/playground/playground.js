@@ -54,7 +54,7 @@ function drawScore() {
     // if (score > 10) {
     //     noLoop();
     // }
-    let middle = camera.x - 25;
+    let middle = camera.x - offset;
     let offset = 0;
     for (let one of digitvararray) {
         let num = new Sprite();
