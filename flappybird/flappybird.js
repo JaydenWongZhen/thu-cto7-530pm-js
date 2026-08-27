@@ -59,9 +59,7 @@ function draw() {
     text("velocity: " + round(bird.vel.y) , 20, 60);
     text("frameCount: " + frameCount , 20, 80);
     text("pipenumber: " + pipegroup.length, 20, 100);
-
     
- 
     if (kb.presses("space") || mouse.presses()) {
         startgam = true;
         bird.visible = true;
