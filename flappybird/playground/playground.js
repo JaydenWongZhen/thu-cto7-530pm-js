@@ -32,7 +32,7 @@ function draw() {
         score = score -1;
     }
     if (kb.presses("3")) {
-        score = round(random(0,999));
+        score = round(random(1,999));
     }
     score = constrain(score,0,999);
     textSize = 15;
