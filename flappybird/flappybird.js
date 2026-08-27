@@ -7,6 +7,10 @@ let pipeimg;
 let bottompipe, toppipe;
 let gameoverimg, startmessageimg;
 let startgam = false;
+let digitvar;
+let digitimagearray = [];
+let score = 0;
+let scoreGroup;
 function preload() {
     midairbirdflap = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
