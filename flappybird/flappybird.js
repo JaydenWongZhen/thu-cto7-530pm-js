@@ -50,7 +50,7 @@ function setup() {
     startmessage.img = startmessageimg;
     bird.collider = "static";
     bird.visible = false;
-        scoreGroup = new Group();
+    scoreGroup = new Group();
     scoreGroup.collider = "none";
 }
 function draw() {
