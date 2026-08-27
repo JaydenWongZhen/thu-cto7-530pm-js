@@ -118,6 +118,7 @@ function draw() {
         gameover.layer = 100;
         noLoop();
     }
+    for (let p of pipegroup) 
     drawScore();
 }
 
@@ -134,7 +135,7 @@ function spawnPipePair() {
     toppipe.img = pipeimg;
     toppipe.rotation=180;
     toppipe.passed = false;
-    
+
     pipegroup.add(toppipe);
 
     pipegroup.layer = 0;
