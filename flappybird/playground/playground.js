@@ -73,6 +73,6 @@ function moveGroup() {
     let count = scoreGroup.length;
     let fullwidth = count * 25;
     let centerScoreGroup = fullwidth/2;
-    let cet
+    let centerSingle = 25/2;
     let difference = centerScoreGroup - centerSingle;
 }
