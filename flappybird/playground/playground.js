@@ -72,5 +72,5 @@ function drawScore() {
 function moveGroup() {
     let count = scoreGroup.length;
     let fullwidth = count * 25;
-    let center
+    let centerScoreGroup = fullwidth/2;
 }
