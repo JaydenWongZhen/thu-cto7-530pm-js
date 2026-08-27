@@ -32,7 +32,7 @@ function draw() {
         score = score -1;
     }
     if (kb.presses("2")) {
-        score = round(random(10,999));
+        score = round(random(10,99));
     }
     if (kb.presses("3")) {
         score = round(random(100,999));
