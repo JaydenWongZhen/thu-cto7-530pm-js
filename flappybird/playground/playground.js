@@ -14,11 +14,11 @@ function preload() {
 function setup() {
     new Canvas(400,600);
     background("skyblue");
-    digitvar = new Sprite();
-    digitvar.collider = "none";
-    digitvar.y=50;
-    digitvar.width=24;
-    digitvar.height=36;
+    // digitvar = new Sprite();
+    // digitvar.collider = "none";
+    // digitvar.y=50;
+    // digitvar.width=24;
+    // digitvar.height=36;
     scoreGroup = new Group();
     scoreGroup.collider = "none";
 }
