@@ -66,7 +66,7 @@ function drawScore() {
         offset += 25;
         scoreGroup.add(num);
         scoreGroup.layer = 1000;
-        scoreGrou
+        scoreGroup.collider = "none"
     }
 }
 function moveGroup() {
