@@ -42,7 +42,7 @@ function draw() {
     fill("blue");
     text("score: " + score,20,20);
     drawScore();
-    
+    camera.x += 3;
 }
 function drawScore() {
     scoreGroup.removeAll();
