@@ -118,7 +118,7 @@ function draw() {
         gameover.layer = 100;
         noLoop();
     }
-    for (let p of pipegroup) 
+    for (let p of pipegroup) {}
     drawScore();
 }
 
