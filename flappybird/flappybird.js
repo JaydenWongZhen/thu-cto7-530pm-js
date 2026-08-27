@@ -50,6 +50,8 @@ function setup() {
     startmessage.img = startmessageimg;
     bird.collider = "static";
     bird.visible = false;
+        scoreGroup = new Group();
+    scoreGroup.collider = "none";
 }
 function draw() {
     image(backg,0,0,width,height);
@@ -59,7 +61,7 @@ function draw() {
     text("velocity: " + round(bird.vel.y) , 20, 60);
     text("frameCount: " + frameCount , 20, 80);
     text("pipenumber: " + pipegroup.length, 20, 100);
-    
+
     if (kb.presses("space") || mouse.presses()) {
         startgam = true;
         bird.visible = true;
