@@ -42,6 +42,7 @@ function draw() {
     fill("blue");
     text("score: " + score,20,20);
     drawScore();
+    
 }
 function drawScore() {
     scoreGroup.removeAll();
