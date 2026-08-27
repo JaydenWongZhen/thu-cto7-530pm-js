@@ -16,6 +16,13 @@ function preload() {
     pipeimg = loadImage("assets/pipe-green.png");
     gameoverimg = loadImage("assets/gameover.png");
     startmessageimg = loadImage("assets/message.png");
+        let prefix = "assets/";
+    let suffix = ".png";
+    let filename = "";
+    for (let i=0; i < 10; i++) {
+        filename = prefix + i + suffix;
+        digitimagearray[i] = loadImage(filename);
+    }
 }
 function setup() {
     new Canvas(400,600);
