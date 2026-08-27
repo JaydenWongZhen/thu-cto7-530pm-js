@@ -41,7 +41,7 @@ function draw() {
     textSize = 15;
     fill("blue");
     text("score: " + score,20,20);
-    drawScore()
+    drawScore();
 }
 function drawScore() {
     scoreGroup.removeAll();
