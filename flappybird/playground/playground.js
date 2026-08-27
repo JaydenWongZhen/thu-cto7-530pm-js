@@ -16,7 +16,6 @@ function setup() {
     background("skyblue");
     digitvar = new Sprite();
     digitvar.collider = "none";
-
     digitvar.y=50;
     digitvar.width=24;
     digitvar.height=36;
