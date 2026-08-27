@@ -119,7 +119,8 @@ function draw() {
         noLoop();
     }
     for (let p of pipegroup) {
-        let pipeRightEdge = p.x + p.w/2
+        let pipeRightEdge = p.x + p.w/2;
+        let bird
     }
     drawScore();
 }
