@@ -29,7 +29,8 @@ function preload() {
         digitimagearray[i] = loadImage(filename);
     }
     diesfx = createAudio("assets/sfx_die.mp3");
-    pointsfx = createAudio("assets/sfx_point.mp3")
+    pointsfx = createAudio("assets/sfx_point.mp3");
+    flapsfx = c
 }
 function setup() {
     new Canvas(400,600);
