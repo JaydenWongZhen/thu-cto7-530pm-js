@@ -11,7 +11,6 @@ let digitvar;
 let digitimagearray = [];
 let score = 0;
 let scoreGroup;
-let diesfx , flapsfx, scoresfx;
 function preload() {
     midairbirdflap = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
@@ -28,7 +27,6 @@ function preload() {
         filename = prefix + i + suffix;
         digitimagearray[i] = loadImage(filename);
     }
-    diesfx = createAudio
 }
 function setup() {
     new Canvas(400,600);
