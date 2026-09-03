@@ -27,6 +27,7 @@ function preload() {
         filename = prefix + i + suffix;
         digitimagearray[i] = loadImage(filename);
     }
+    
 }
 function setup() {
     new Canvas(400,600);
