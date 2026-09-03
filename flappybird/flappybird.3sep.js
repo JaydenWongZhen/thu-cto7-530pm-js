@@ -11,6 +11,7 @@ let digitvar;
 let digitimagearray = [];
 let score = 0;
 let scoreGroup;
+let diesfx,pointsfx,flapsfx;
 function preload() {
     midairbirdflap = loadImage("assets/bluebird-midflap.png");
     backg = loadImage("assets/background-day.png");
@@ -27,7 +28,7 @@ function preload() {
         filename = prefix + i + suffix;
         digitimagearray[i] = loadImage(filename);
     }
-    
+
 }
 function setup() {
     new Canvas(400,600);
