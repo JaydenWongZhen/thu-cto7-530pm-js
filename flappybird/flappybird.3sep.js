@@ -29,7 +29,7 @@ function preload() {
         digitimagearray[i] = loadImage(filename);
     }
     diesfx = createAudio("assets/sfx_die.mp3");
-    s
+    pointsfx
 }
 function setup() {
     new Canvas(400,600);
