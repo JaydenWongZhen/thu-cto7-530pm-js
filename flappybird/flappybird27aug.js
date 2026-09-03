@@ -28,7 +28,7 @@ function preload() {
         filename = prefix + i + suffix;
         digitimagearray[i] = loadImage(filename);
     }
-    diesfx 
+    diesfx = createAudio
 }
 function setup() {
     new Canvas(400,600);
