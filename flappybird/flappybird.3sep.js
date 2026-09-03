@@ -30,7 +30,7 @@ function preload() {
     }
     diesfx = createAudio("assets/sfx_die.mp3");
     pointsfx = createAudio("assets/sfx_point.mp3");
-    flapsfx = c
+    flapsfx = createAudio("assets")
 }
 function setup() {
     new Canvas(400,600);
