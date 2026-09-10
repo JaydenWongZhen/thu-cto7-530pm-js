@@ -10,7 +10,7 @@ function preload() {
     };
     let melon = {
         whole: loadImage("assets/watermelonwhole.png")
-    }
+    };
 }
 function setup() {
     createCanvas(800,400);
