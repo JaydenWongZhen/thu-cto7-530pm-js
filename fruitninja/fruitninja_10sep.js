@@ -6,7 +6,7 @@ let fruitvariety=[];
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
     let peach = {
-        
+        whole: loadImage()
     }
 }
 function setup() {
