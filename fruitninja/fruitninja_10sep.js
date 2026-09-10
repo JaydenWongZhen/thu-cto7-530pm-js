@@ -11,7 +11,7 @@ function preload() {
     let melon = {
         whole: loadImage("assets/watermelonwhole.png")
     };
-    fruits
+    fruits=[peach,melon];
 }
 function setup() {
     createCanvas(800,400);
