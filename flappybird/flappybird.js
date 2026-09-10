@@ -118,7 +118,7 @@ function draw() {
     floor.x = bird.x;
     //colison
     if (bird.collides(floor) || bird.collides(pipegroup) || bird.y < 0) {
-        diesfx.play()
+        diesfx.play();
         gameover = new Sprite(bird.x,250,300,50,"none");
         gameover.img=gameoverimg;
         gameover.layer = 100;
