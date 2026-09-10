@@ -5,7 +5,7 @@ function preload() {
     dojobg=loadImage("assets/dojobackground.png");
 }
 function setup() {
-    createCanvas(800,600);
+    createCanvas(800,400);
     background(255);
     world.gravity.y=10;
 }
