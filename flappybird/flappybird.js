@@ -125,6 +125,7 @@ function draw() {
         noLoop();
 
         setTimeout(() => {
+            score = 0;
             startgam = false;
             pipegroup.removeAll();
             bird.vel.x = 0;
@@ -140,7 +141,7 @@ function draw() {
             startmessage.y=height/2-50;
 
             loop();
-        },5000);
+        },3000);
     }
     for (let p of pipegroup) {
         let pipeRightEdge = p.x + p.w/2;
