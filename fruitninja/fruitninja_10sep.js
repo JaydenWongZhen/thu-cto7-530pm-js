@@ -9,7 +9,7 @@ function preload() {
         whole: loadImage("assets/peachwhole.png")
     };
     let melon = {
-        wh
+        whole: loadImage("assets/watermelonwhole.png")
     }
 }
 function setup() {
