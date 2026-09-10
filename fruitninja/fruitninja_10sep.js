@@ -5,6 +5,7 @@ let fruitvariety=[];
 
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
+    let peach
 }
 function setup() {
     createCanvas(800,400);
