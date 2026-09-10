@@ -8,7 +8,9 @@ function preload() {
     let peach = {
         whole: loadImage("assets/peachwhole.png")
     };
-    
+    let melon = {
+        wh
+    }
 }
 function setup() {
     createCanvas(800,400);
