@@ -135,6 +135,7 @@ function draw() {
 
             gameover.remove();
             startmessage.visible= "true";
+            startmessage.x=bird.x;
             startmessage.y=height/2-50;
 
             loop();
