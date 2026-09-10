@@ -1,5 +1,5 @@
 // write your codes here
-let dojoground,dojobg;
+let dojobg;
 
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
@@ -10,5 +10,5 @@ function setup() {
     world.gravity.y=10;
 }
 function draw() {
-
+    i
 }
