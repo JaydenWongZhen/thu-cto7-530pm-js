@@ -123,6 +123,8 @@ function draw() {
         gameover.img=gameoverimg;
         gameover.layer = 100;
         noLoop();
+
+        setTimeou
     }
     for (let p of pipegroup) {
         let pipeRightEdge = p.x + p.w/2;
