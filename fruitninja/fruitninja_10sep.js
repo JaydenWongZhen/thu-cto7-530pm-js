@@ -1,5 +1,5 @@
 // write your codes here
-
+let dojoground,dojobg;
 function preload() {
     
 }
