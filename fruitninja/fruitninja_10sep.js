@@ -1,7 +1,8 @@
 // write your codes here
 let dojoground,dojobg;
+
 function preload() {
-    
+    dojobg=
 }
 function setup() {
     createCanvas(600,400);
