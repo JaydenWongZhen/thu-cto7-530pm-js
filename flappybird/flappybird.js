@@ -124,7 +124,21 @@ function draw() {
         gameover.layer = 100;
         noLoop();
 
-        setTimeou
+        setTimeout(() => {
+            startgam = false;
+            pipegroup.removeAll();
+            bird.vel.x = 0;
+            bird.vel.y = 0;
+            bird.rotation= 0;
+            bird.collider = "static";
+            bird.y=200;
+
+            gameover.remove();
+            startmessage.visible= "true";
+            startmessage.y=height/2-50;
+
+            loop();
+        },5000);
     }
     for (let p of pipegroup) {
         let pipeRightEdge = p.x + p.w/2;
