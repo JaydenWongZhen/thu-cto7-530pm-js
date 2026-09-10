@@ -2,3 +2,6 @@
 function preload() {
 
 }
+function setup() {
+    
+}
