@@ -1,6 +1,6 @@
 // write your codes here
 let dojobg;
-
+let fruiy
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
 }
