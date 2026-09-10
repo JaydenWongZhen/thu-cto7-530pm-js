@@ -132,6 +132,7 @@ function draw() {
             if (pipeRightEdge < birdLeftEdge) {
                 p.passed = true;
                 score++;
+                pointsfx.play();
             }
         }
     }
