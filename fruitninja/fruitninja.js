@@ -27,8 +27,9 @@ function setup() {
 }
 function draw() {
     image(dojobg,0,0,width,height);
-    if (frameCount%120 === 0);
+    if (frameCount%120 === 0) {
     spawnFruit();
+}
 }
 function spawnFruit() {
     fruit = new Sprite();
