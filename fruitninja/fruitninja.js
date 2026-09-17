@@ -8,7 +8,7 @@ function preload() {
     let peach = {
         whole: loadImage("assets/peachwhole.png"),
         Lhalf: loadImage("assets/peachhalf.png"),
-        Rhalf: loadImage("assets/.png")
+        Rhalf: loadImage("assets/peachhalf2.png")
     };
     let melon = {
         whole: loadImage("assets/watermelonwhole.png"),
