@@ -30,11 +30,11 @@ function draw() {
     if (frameCount%120 === 0) {
     spawnFruit();
     }
-    if (kb.presses("1")) {
-        for (let fruit of fruitgrop) {
-        fruit.debug=!fruit.debug;
-        }
-    }
+    // if (kb.presses("1")) {
+    //     for (let fruit of fruitgrop) {
+    //     fruit.debug=!fruit.debug;
+    //     }
+    // }
 }
 function spawnFruit() {
     fruit = new Sprite(random(200,600),400);
