@@ -38,7 +38,7 @@ function draw() {
     if (mouse.pressing()) {
         noStroke();
         let swoontrail = new Sprite(mouseX,mouseY,10);
-        swoontrail.color="#FFFF";
+        swoontrail.color="#000000";
         swoontrail.collider="none";
         swoontrail.life=20;
     }
