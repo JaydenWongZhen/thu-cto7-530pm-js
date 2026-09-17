@@ -54,4 +54,5 @@ function spawnFruit() {
     fruitgrop.add(fruit);
     fruit.type=fruitvariation;
     fruit.friction=2;
+    fruit.debug = mydebug;
 }
