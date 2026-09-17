@@ -33,6 +33,6 @@ function draw() {
 }
 function spawnFruit() {
     fruit = new Sprite();
-    
+    let fruitdata
     fruitgrop.add(fruit);
 }
