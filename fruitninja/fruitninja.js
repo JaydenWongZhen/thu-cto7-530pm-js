@@ -39,4 +39,5 @@ function spawnFruit() {
     fruit.vel.x=random(-5,5);
     fruit.img=fruitvariation.whole;
     fruitgrop.add(fruit);
+    fruit.type=fruitvariation
 }
