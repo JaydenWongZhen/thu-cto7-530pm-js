@@ -40,7 +40,7 @@ function draw() {
         let swoontrail = new Sprite(mouseX,mouseY,10);
         swoontrail.color="#FFFF";
         swoontrail.collider="none";
-        swoontrail.life=5;
+        swoontrail.life=20;
     }
 }
 function spawnFruit() {
