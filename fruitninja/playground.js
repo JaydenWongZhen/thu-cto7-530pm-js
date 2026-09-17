@@ -1,5 +1,5 @@
 let person = {}
-
+person.born = 
 function setup() {
 
 }
