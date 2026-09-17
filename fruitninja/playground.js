@@ -6,7 +6,7 @@ bankacc:-777,
 citship:"mango"
 };
 let adress = {
-    strret: "nihgue raezih",
+    strret: "nihgue raezih, stupid 69",
     blknum:"stupid 69 692-b",
     unitnum: "#19123-24824353469",
     postalcode: '-1.5'
