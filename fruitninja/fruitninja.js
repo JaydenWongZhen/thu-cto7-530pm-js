@@ -2,7 +2,7 @@
 let dojobg;
 let fruitgrop;
 let fruits=[];
-
+let mydebug = true;
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
     let peach = {
