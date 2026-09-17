@@ -1,5 +1,6 @@
 let person = {}
-person.born = 
+person.born = "hungary";
+person.
 function setup() {
 
 }
