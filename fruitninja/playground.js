@@ -6,7 +6,7 @@ bankacc:-777,
 citship:"mango"
 };
 let adress = {
-    strret: "nihgue stu"
+    strret: "nihgue r"
 }
 function setup() {
 print(person);
