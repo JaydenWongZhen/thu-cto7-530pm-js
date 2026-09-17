@@ -11,7 +11,7 @@ function preload() {
     };
     let melon = {
         whole: loadImage("assets/watermelonwhole.png"),
-        half: loadImage("assets/.png")
+        half: loadImage("assets/watermelonhalf.png")
     };
     fruits=[peach,melon];
 }
