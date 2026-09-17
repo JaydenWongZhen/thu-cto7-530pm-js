@@ -38,7 +38,7 @@ function draw() {
     if (mouse.pressing()) {
         noStroke();
         let swoontrail = new Sprite(mouseX,mouseY,5);
-        swoontrail.color="#FFFFF"
+        swoontrail.color="#FFFF"
     }
 }
 function spawnFruit() {
