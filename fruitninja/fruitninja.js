@@ -36,7 +36,7 @@ function draw() {
     //     }
     // }
     if (mouse.pressing()) {
-        
+        swoon = new Sprite()
     }
 }
 function spawnFruit() {
