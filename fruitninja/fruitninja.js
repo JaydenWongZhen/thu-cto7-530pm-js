@@ -38,8 +38,9 @@ function draw() {
     if (mouse.pressing()) {
         noStroke();
         let swoontrail = new Sprite(mouseX,mouseY,5);
-        swoontrail.color="#FFFF"
-        tail.collif
+        swoontrail.color="#FFFF";
+        swoontrail.collider="none";
+        
     }
 }
 function spawnFruit() {
