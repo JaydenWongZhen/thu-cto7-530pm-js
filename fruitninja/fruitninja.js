@@ -23,6 +23,7 @@ function setup() {
     createCanvas(800,400);
     background(255);
     world.gravity.y=10;
+    fruitgrop
 }
 function draw() {
     image(dojobg,0,0,width,height);
@@ -30,5 +31,5 @@ function draw() {
     spawnFruit();
 }
 function spawnFruit() {
-    
+
 }
