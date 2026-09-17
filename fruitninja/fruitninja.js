@@ -32,7 +32,7 @@ function draw() {
 }
 }
 function spawnFruit() {
-    fruit = new Sprite(random,400);
+    fruit = new Sprite(random(200,600),400);
     let fruitvariation=random(fruits);
     fruit.diameter=35;
     fruit.vel.y=-10;
