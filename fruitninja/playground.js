@@ -1,5 +1,5 @@
 let person = {
-born = "hungary",
+born:"hungary",
 gender:true,
 race:"crossiant",
 bankacc:-777,
