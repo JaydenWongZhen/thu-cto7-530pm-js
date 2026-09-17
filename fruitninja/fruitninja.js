@@ -33,6 +33,6 @@ function draw() {
 }
 function spawnFruit() {
     fruit = new Sprite();
-    let fruitvariation=random(fruits)
+    let fruitvariation=random(fruits);
     fruitgrop.add(fruit);
 }
