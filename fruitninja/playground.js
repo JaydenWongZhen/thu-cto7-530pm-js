@@ -1,8 +1,8 @@
 let person = {
 born = "hungary",
-gender = true,
-race = "crossiant",
-bankacc = -777,
+gender:true,
+race:"crossiant",
+bankacc:-777,
 citship:"mango"
 };
 
