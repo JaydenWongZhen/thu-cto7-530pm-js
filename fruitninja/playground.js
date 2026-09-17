@@ -3,7 +3,7 @@ born = "hungary",
 gender = true,
 race = "crossiant",
 bankacc = -777,
-citship = "mango"
+citship:"mango"
 };
 
 function setup() {
