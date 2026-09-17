@@ -39,6 +39,7 @@ function draw() {
         noStroke();
         let swoontrail = new Sprite(mouseX,mouseY,5);
         swoontrail.color="#FFFF"
+        tail.collif
     }
 }
 function spawnFruit() {
