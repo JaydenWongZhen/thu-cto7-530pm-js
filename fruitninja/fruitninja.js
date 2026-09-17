@@ -40,5 +40,5 @@ function spawnFruit() {
     fruit.img=fruitvariation.whole;
     fruitgrop.add(fruit);
     fruit.type=fruitvariation;
-    
+    fruit.frictio
 }
