@@ -31,5 +31,6 @@ function draw() {
     spawnFruit();
 }
 function spawnFruit() {
-
+    fruit = new Sprite()
+    
 }
