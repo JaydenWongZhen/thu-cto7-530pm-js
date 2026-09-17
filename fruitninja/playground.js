@@ -1,5 +1,5 @@
-let person = {
-}
+let person = {}
+
 function setup() {
 
 }
