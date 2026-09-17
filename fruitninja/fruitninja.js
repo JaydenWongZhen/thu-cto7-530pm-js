@@ -34,6 +34,7 @@ function draw() {
 function spawnFruit() {
     fruit = new Sprite();
     let fruitvariation=random(fruits);
-    fruit.diameter=
+    fruit.diameter=35;
+    fruit.img=fruitvariation
     fruitgrop.add(fruit);
 }
