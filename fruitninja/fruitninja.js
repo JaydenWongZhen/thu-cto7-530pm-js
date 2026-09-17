@@ -31,7 +31,7 @@ function draw() {
     spawnFruit();
     }
     if (kb.presses("1")) {
-        fruit.debug=!fruit.debug;
+        fruitgrop.debug=!fruitgrop.debug;
     }
 }
 function spawnFruit() {
