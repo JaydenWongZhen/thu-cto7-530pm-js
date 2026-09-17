@@ -35,7 +35,9 @@ function draw() {
     //     fruit.debug=!fruit.debug;
     //     }
     // }
-    if (mouse.pressing())
+    if (mouse.pressing()) {
+        
+    }
 }
 function spawnFruit() {
     fruit = new Sprite(random(200,600),400);
