@@ -37,7 +37,7 @@ function draw() {
     // }
     if (mouse.pressing()) {
         noStroke();
-        swoontr = new Sprite()
+        let swoontrail = new Sprite()
     }
 }
 function spawnFruit() {
