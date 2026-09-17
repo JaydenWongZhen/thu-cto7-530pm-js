@@ -7,7 +7,7 @@ citship:"mango"
 };
 let adress = {
     strret: "nihgue raezih",
-    blknum:"692-b"
+    blknum:"stupid 69 692-b"
 }
 function setup() {
 print(person);
