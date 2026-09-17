@@ -23,7 +23,7 @@ function setup() {
     createCanvas(800,400);
     background(255);
     world.gravity.y=10;
-    fruitgrop
+    fruitgrop = new Group();
 }
 function draw() {
     image(dojobg,0,0,width,height);
