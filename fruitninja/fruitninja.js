@@ -7,12 +7,13 @@ function preload() {
     dojobg=loadImage("assets/dojobackground.png");
     let peach = {
         whole: loadImage("assets/peachwhole.png"),
-        half: loadImage("assets/peachhalf.png"),
+        Lhalf: loadImage("assets/peachhalf.png"),
         half: loadImage("assets/.png")
     };
     let melon = {
         whole: loadImage("assets/watermelonwhole.png"),
-        half: loadImage("assets/watermelonhalf.png")
+        Lhalf: loadImage("assets/watermelonhalf.png"),
+        half: loadImage("assets/.png")
     };
     fruits=[peach,melon];
 }
