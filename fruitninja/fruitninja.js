@@ -15,6 +15,7 @@ function preload() {
         whole: loadImage("assets/watermelonwhole.png"),
         Lhalf: loadImage("assets/watermelonhalf.png"),
         Rhalf: loadImage("assets/watermelonhalf.png"),
+        half: loadImage("assets/.png")
     };
     fruits=[peach,melon];
 }
