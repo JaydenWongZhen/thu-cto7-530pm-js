@@ -29,7 +29,7 @@ function draw() {
     image(dojobg,0,0,width,height);
     if (frameCount%120 === 0) {
     spawnFruit();
-}
+    }
     if (kb.presses("1")) {
         fruit.debug=true;
     }
