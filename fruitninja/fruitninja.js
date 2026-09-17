@@ -36,6 +36,7 @@ function spawnFruit() {
     let fruitvariation=random(fruits);
     fruit.diameter=35;
     fruit.vel.y=-15;
+    fruit.rotation=rand
     fruit.img=fruitvariation.whole;
     fruitgrop.add(fruit);
 }
