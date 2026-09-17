@@ -31,8 +31,9 @@ function draw() {
     spawnFruit();
     }
     if (kb.presses("1")) {
-        for (let one of fruitgroo)
+        for (let fruit of fruitgrop) {
         fruitgrop.debug=!fruitgrop.debug;
+        }
     }
 }
 function spawnFruit() {
