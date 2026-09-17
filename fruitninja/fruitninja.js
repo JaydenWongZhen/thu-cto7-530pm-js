@@ -32,7 +32,7 @@ function draw() {
     }
     if (kb.presses("1")) {
         for (let fruit of fruitgrop) {
-        fruit.debug=!fruit.debug;
+        mydebug=
         }
     }
     if (mouse.pressing()) {
