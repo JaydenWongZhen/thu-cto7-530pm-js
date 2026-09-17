@@ -8,7 +8,7 @@ citship:"mango"
 let adress = {
     strret: "nihgue raezih",
     blknum:"stupid 69 692-b",
-    unitnum: "#19248294"
+    unitnum: "#19248294-"
 }
 function setup() {
 print(person);
