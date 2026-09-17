@@ -8,12 +8,12 @@ function preload() {
     let peach = {
         whole: loadImage("assets/peachwhole.png"),
         Lhalf: loadImage("assets/peachhalf.png"),
-        half: loadImage("assets/.png")
+        Rhalf: loadImage("assets/.png")
     };
     let melon = {
         whole: loadImage("assets/watermelonwhole.png"),
         Lhalf: loadImage("assets/watermelonhalf.png"),
-        half: loadImage("assets/.png")
+        Rhalf: loadImage("assets/.png")
     };
     fruits=[peach,melon];
 }
