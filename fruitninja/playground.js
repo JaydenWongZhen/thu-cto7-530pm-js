@@ -13,7 +13,7 @@ let adress = {
 }
 function setup() {
 print(person);
-print(af)
+print(adress);
 }
 function draw() {
 
