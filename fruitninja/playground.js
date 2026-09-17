@@ -1,7 +1,8 @@
 let person = {}
 person.born = "hungary";
 person.gender = true;
-person.race = crossaiant
+person.race = "crossiant";
+person.acc
 function setup() {
 
 }
