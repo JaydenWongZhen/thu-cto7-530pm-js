@@ -6,7 +6,8 @@ let fruits=[];
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
     let peach = {
-        whole: loadImage("assets/peachwhole.png")
+        whole: loadImage("assets/peachwhole.png"),
+        half: loadImage("assets/")
     };
     let melon = {
         whole: loadImage("assets/watermelonwhole.png")
