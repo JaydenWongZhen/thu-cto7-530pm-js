@@ -5,7 +5,9 @@ race:"crossiant",
 bankacc:-777,
 citship:"mango"
 };
-
+let adress = {
+    
+}
 function setup() {
 print(person);
 }
