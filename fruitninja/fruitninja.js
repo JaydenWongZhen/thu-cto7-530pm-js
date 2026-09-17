@@ -36,7 +36,8 @@ function draw() {
     //     }
     // }
     if (mouse.pressing()) {
-        swoon = new Sprite()
+        noStroke();
+        swoontr = new Sprite()
     }
 }
 function spawnFruit() {
