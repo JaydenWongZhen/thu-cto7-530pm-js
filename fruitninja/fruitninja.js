@@ -32,5 +32,5 @@ function draw() {
 }
 function spawnFruit() {
     fruit = new Sprite();
-    fruitgrop.add(fruit)
+    fruitgrop.add(fruit);
 }
