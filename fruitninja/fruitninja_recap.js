@@ -71,7 +71,7 @@ function displayHeader() {
     textSize(30);
     textAlign(LEFT,CENTER);
     text("Score: " + score,30,30);
-    text("Misses: " + missed,30,30);
+    text("Misses: " + missed,30,60);
 }
 
 // function with parameters
