@@ -66,6 +66,16 @@ function draw() {
             missed++;
         }
     }
+function drawStartScreen() {
+fill(0,50);
+rect(0,0,width,height);
+fill("white");
+textSize(60);
+textAlign(CENTER,CENTER);
+text("Fruit Ninja",width/2,height/2);
+textSize(20);
+text("press [SPACE] or [CLICK] to start",width/2,height/2+50);
+}
 }
 function displayHeader() {
     fill('white');
