@@ -13,7 +13,7 @@ function draw() {
     image(dojobg,0,0,width,height);
 }
 function drawStartScreen() {
-FileList()
+fill("white");
 textSize(30);
 textAlign(CENTER,CENTER);
 }
