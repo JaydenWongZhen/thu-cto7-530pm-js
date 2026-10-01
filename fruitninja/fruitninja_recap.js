@@ -68,6 +68,7 @@ function draw() {
 }
 function displayHeader() {
     fill('white');
+    textsize(30);
     
 }
 
