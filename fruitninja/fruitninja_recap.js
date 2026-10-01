@@ -28,7 +28,7 @@ function preload() {
 function setup() {
     new Canvas(800,600);
     background("brown");
-
+    displayHeader()
     fruitGroup = new Group(); // for easy management of fruits
     fruitHalves = new Group();
     
