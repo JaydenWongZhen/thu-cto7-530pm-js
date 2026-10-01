@@ -67,6 +67,7 @@ function draw() {
     }
 }
 function displayHeader() {
+    fill('white');
     
 }
 
