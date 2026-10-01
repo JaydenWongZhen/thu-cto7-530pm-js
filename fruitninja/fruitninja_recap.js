@@ -70,7 +70,7 @@ function displayHeader() {
     fill('white');
     textsize(30);
     textAlign(LEFT,CENTER);
-    text("Score:")
+    text("Score: ") + score 
 }
 
 // function with parameters
