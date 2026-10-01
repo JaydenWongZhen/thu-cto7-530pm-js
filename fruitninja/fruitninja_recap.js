@@ -68,7 +68,7 @@ function draw() {
 }
 function displayHeader() {
     fill('white');
-    textsize(30);
+    textSize(30);
     textAlign(LEFT,CENTER);
     text("Score: " + score,30,30);
     text("Misses: " + missed,30,30);
