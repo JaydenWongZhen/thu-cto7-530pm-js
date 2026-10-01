@@ -3,9 +3,9 @@ function preload() {
     dojobg = loadImage("assets/dojobackground.png");
 }
 
-function setup() {(800,600)
+function setup() {
+    new CanvasCaptureMediaStreamTrack(800,600)
 }
-    new CanvasCaptureMediaStreamTrack
 
 function draw() {
 
