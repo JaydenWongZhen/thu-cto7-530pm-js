@@ -5,7 +5,7 @@ let fruitHalves;
 let fruitTypes;
 
 let score;
-let miss;
+let missed;
 function preload() {
     bg = loadImage("assets/dojobackground.png");
 
