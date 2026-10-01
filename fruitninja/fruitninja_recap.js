@@ -35,6 +35,7 @@ function setup() {
     world.gravity.y = 10;
 
     score = 0;
+    missed = 0;
 }
 
 function draw() {
