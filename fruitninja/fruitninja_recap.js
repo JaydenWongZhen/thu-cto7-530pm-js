@@ -69,7 +69,7 @@ function draw() {
 function displayHeader() {
     fill('white');
     textsize(30);
-    
+    textAlign(LEFT,CENTER)
 }
 
 // function with parameters
