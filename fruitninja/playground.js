@@ -19,5 +19,5 @@ textSize(60);
 textAlign(CENTER,CENTER);
 text("Fruit Ninja",width/2,height/2);
 textSize(20);
-text("press [SPACE] or ")
+text("press [SPACE] or [CLICK] to start")
 }
