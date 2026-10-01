@@ -54,7 +54,7 @@ function draw() {
 function splitFruit(xpos, ypos, fruits) {
     // spawn left half
     let leftslice = new Sprite(xpos-10, ypos, 35);
-    leftslice.img = fruits.half1;
+    leftslice.img = fruits.half;
     leftslice.vel.x = -3; // veer left
     leftslice.vel.y = random(-5, -2);
     leftslice.rotationSpeed = -5;
