@@ -60,7 +60,7 @@ function draw() {
     }
 
     for (let one of fruitGroup) {
-
+        
     }
 }
 
