@@ -5,7 +5,7 @@ let fruitHalves;
 let fruitTypes;
 
 let score;
-
+let miss;
 function preload() {
     bg = loadImage("assets/dojobackground.png");
 
@@ -60,7 +60,7 @@ function draw() {
     }
 
     for (let one of fruitGroup) {
-        
+
     }
 }
 
