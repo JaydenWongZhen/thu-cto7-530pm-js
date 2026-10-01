@@ -16,5 +16,5 @@ function drawStartScreen() {
 fill("white");
 textSize(60);
 textAlign(CENTER,CENTER);
-
+text("Furit")
 }
