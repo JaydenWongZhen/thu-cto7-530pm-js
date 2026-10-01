@@ -66,6 +66,9 @@ function draw() {
         }
     }
 }
+function displayHeader() {
+    
+}
 
 // function with parameters
 function splitFruit(xpos, ypos, fruitType) {
