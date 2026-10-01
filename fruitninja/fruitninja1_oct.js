@@ -3,6 +3,7 @@ let dojobg;
 let fruitgrop;
 let fruits=[];
 let mydebug = true;
+let score = 0;
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
     let peach = {
