@@ -60,7 +60,9 @@ function draw() {
     }
 
     for (let one of fruitGroup) {
-        
+        if (one.y > height + 50) {
+            
+        }
     }
 }
 
