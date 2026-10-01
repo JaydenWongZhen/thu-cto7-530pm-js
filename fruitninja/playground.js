@@ -1,4 +1,5 @@
 let dojobg;
+let gamestarted = false;
 function preload() {
     dojobg = loadImage("assets/dojobackground.png");
 }
@@ -13,5 +14,5 @@ function draw() {
     image(dojobg,0,0,width,height);
 }
 function drawStartScreen() {
-    
+
 }
