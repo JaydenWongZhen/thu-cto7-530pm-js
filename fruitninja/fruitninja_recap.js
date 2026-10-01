@@ -58,6 +58,8 @@ function draw() {
 
         sliceFruit();
     }
+
+    for (let one of fruitGroup)
 }
 
 // function with parameters
