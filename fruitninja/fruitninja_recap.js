@@ -42,7 +42,7 @@ function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
     displayHeader();
-
+    drawStartScreen()
     // when to spawnFruit
     if (frameCount%90 === 0) {
         // nearly 1.5 seconds
