@@ -28,7 +28,7 @@ function preload() {
 function setup() {
     new Canvas(800,600);
     background("brown");
-    displayHeader();
+    
     fruitGroup = new Group(); // for easy management of fruits
     fruitHalves = new Group();
     
@@ -40,7 +40,7 @@ function setup() {
 function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
-
+    displayHeader();
 
     // when to spawnFruit
     if (frameCount%90 === 0) {
