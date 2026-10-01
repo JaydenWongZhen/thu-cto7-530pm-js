@@ -4,6 +4,7 @@ let fruitgrop;
 let fruits=[];
 let mydebug = true;
 let score = 0;
+let fruit_half;
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
     let peach = {
@@ -25,6 +26,7 @@ function setup() {
     background(255);
     world.gravity.y=10;
     fruitgrop = new Group();
+    fruit_half = new Group();
 }
 function draw() {
     image(dojobg,0,0,width,height);
@@ -44,7 +46,63 @@ function draw() {
         swoontrail.collider="none";
         swoontrail.life=20;
     }
+        sliceFruit();
+    }
+
+
+// function with parameters
+function splitFruit(xpos, ypos, fruits) {
+    // spawn left half
+    let leftslice = new Sprite(xpos-10, ypos, 35);
+    leftslice.img = fruits.half1;
+    leftslice.vel.x = -3; // veer left
+    leftslice.vel.y = random(-5, -2);
+    leftslice.rotationSpeed = -5;
+    leftslice.life = 60; // 30 frames so half a second
+
+    fruit_half.add(left); // add to group
+
+    // you do spawn right half
+    let rightslice = new Sprite(xpos+10, ypos, 35);
+    rightslice.img = fruits.half2;
+    rightslice.vel.x = 3; // veer left
+    rightslice.vel.y = random(-5, -2);
+    rightslice.rotationSpeed = 5;
+    rightslice.life = 60; // 30 frames so half a second
+
+    fruit_half.add(right); // add to group
 }
+
+// cut the fruit using the mouse pressed (or dragged across the canvas)
+function sliceFruit() {
+    for (let fruit of fruitgrop) {
+        // fruit.sliced is a custom property
+        if (fruit.sliced) {
+            continue; // skip this one, continue next member in the loop
+        }
+
+        // dist(): calculate distance
+        let distofmouse = dist(mouse.x, mouse.y, fruit.x, fruit.y); // is this fruit near the mouse pointer?
+        let hitboxradius = fruit.diameter/2 + 5;
+
+        if (distofmouse < hitboxradius) {
+            fruit.sliced = true; // i am slicing this one
+
+            const fx = fruit.x; // remember
+            const fy = fruit.y; // remember
+
+            fruit.remove(); // whole fruit is gone
+
+            // call our new function using 3 parameters
+            splitFruit( fx, fy, fruit.type );
+
+            score++;
+
+            break; // cut one fruit a time per function call
+        } // condition
+    } // loop to close
+}
+
 function spawnFruit() {
     fruit = new Sprite(random(200,600),400);
     let fruitvariation=random(fruits);
