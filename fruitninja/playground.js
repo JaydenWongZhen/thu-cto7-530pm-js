@@ -14,7 +14,7 @@ function draw() {
     drawStartScreen();
 }
 function drawStartScreen() {
-fill(0,)
+fill(0,50);
 fill("white");
 textSize(60);
 textAlign(CENTER,CENTER);
