@@ -10,5 +10,5 @@ function setup() {
 
 function draw() {
     clear();
-    
+    Image(dojobg,0,0,innerWidth,height)
 }
