@@ -13,5 +13,6 @@ function draw() {
     image(dojobg,0,0,width,height);
 }
 function drawStartScreen() {
+textSize(30);
 
 }
