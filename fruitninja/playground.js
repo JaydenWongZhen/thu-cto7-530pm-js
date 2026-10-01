@@ -14,5 +14,5 @@ function draw() {
 }
 function drawStartScreen() {
 textSize(30);
-textAlign(CustomElementRegistry,CustomElementRegist)
+textAlign()
 }
