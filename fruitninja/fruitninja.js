@@ -37,6 +37,7 @@ function draw() {
     image(dojobg,0,0,width,height);
     if ((kb.presses("space") || mouse.presses() ) && gamestatus === "start") {
         gamestatus = "play";
+        bgmusic.pl
 
         score=0;
         miss=0;
