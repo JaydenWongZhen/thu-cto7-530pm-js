@@ -51,7 +51,8 @@ function draw() {
     }
     function displayHeader() {
         fill("white");
-        textSize(30)
+        textSize(30);
+        textAlign
     }
 
 
