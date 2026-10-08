@@ -128,10 +128,10 @@ function sliceFruit() {
         if (distofmouse < hitboxradius) {
             fruit.sliced = true; 
 
-            const fx = fruit.x; // remember
-            const fy = fruit.y; // remember
+            const fx = fruit.x; 
+            const fy = fruit.y; 
 
-            fruit.remove(); // whole fruit is gone
+            fruit.remove(); 
 
             // call our new function using 3 parameters
             splitFruit( fx, fy, fruit.type );
