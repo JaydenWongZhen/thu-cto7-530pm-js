@@ -71,7 +71,7 @@ function splitFruit(xpos, ypos, fruits) {
     rightslice.rotationSpeed = 5;
     rightslice.life = 60; // 30 frames so half a second
 
-    fruit_half.add(right); // add to group
+    fruit_half.add(Rhalf); // add to group
 }
 
 // cut the fruit using the mouse pressed (or dragged across the canvas)
