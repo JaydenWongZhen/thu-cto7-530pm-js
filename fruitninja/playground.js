@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-    if()
+    if((kb.presses("space")))
     clear();
     image(dojobg,0,0,width,height);
     drawStartScreen();
