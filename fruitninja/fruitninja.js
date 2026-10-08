@@ -69,7 +69,11 @@ function draw() {
         swoontrail.life=20;
     }
         sliceFruit();
-    
+    for (let fruit of fruitgrop) {
+        if (fruit.y > height + 50) {
+            
+        }
+    }
  
 }
 
