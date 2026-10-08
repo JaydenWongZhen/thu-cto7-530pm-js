@@ -31,7 +31,9 @@ function setup() {
     fruit_half = new Group();
 }
 function draw() {
-    clear
+    clear();
+    displayHeader();
+    ft
     image(dojobg,0,0,width,height);
     if (frameCount%120 === 0) {
     spawnFruit();
