@@ -49,6 +49,7 @@ function draw() {
         swoontrail.life=20;
     }
         sliceFruit();
+        
     }
     function displayHeader() {
         fill("white");
