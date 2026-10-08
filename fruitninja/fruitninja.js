@@ -62,7 +62,8 @@ function draw() {
     
  
     }
-       function drawStartScreen() {
+
+function drawStartScreen() {
         fill(0,50);
         rect(0,0,width,height);
         fill("white");
@@ -72,7 +73,7 @@ function draw() {
         textSize(20);
         text("press [SPACE] or [CLICK] to start",width/2,height/2+50);
         }
-    function displayHeader() {
+function displayHeader() {
         fill("white");
         textSize(30);
         textAlign(LEFT,CENTER);
