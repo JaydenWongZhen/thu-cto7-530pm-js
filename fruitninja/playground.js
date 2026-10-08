@@ -26,5 +26,6 @@ function draw() {
 // text("press [SPACE] or [CLICK] to start",width/2,height/2+50);
 // }
 function drawGameOver() {
-    fill
+    fill(0,50);
+    rect
 }
