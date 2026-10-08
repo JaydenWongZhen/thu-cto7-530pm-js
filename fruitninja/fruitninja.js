@@ -23,7 +23,7 @@ function preload() {
     };
     fruits=[peach,melon];
     slicesfx=loadSound("assets/fruit-ninja-combo.mp3");
-    bgmusic=loadSound("assets/fruit-ninja-bgtrack.mpg");
+    bgmusic=loadSound("assets/fruit-ninja-bgtrack.mp3");
 }
 function setup() {
     createCanvas(800,400);
