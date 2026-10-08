@@ -38,7 +38,9 @@ function draw() {
 
         score=0;
         miss=0;
-        
+        fruitgrop.removeAll();
+        fruit
+
     }
 
     if (gamestatus === "start") {
