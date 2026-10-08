@@ -33,7 +33,7 @@ function setup() {
 function draw() {
     clear();
     image(dojobg,0,0,width,height);
-    if ((kb))
+    if ((kb.presses("space")))
 
     if (gamestatus === "start") {
        drawStartScreen();
