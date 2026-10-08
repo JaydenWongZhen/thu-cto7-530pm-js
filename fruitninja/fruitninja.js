@@ -93,10 +93,9 @@ function displayHeader() {
 
 // function with parameters
 function splitFruit(xpos, ypos, fruits) {
-    // spawn left half
     let leftslice = new Sprite(xpos-10, ypos, 35);
     leftslice.img = fruits.Lhalf;
-    leftslice.vel.x = -3; // veer left
+    leftslice.vel.x = -3;
     leftslice.vel.y = random(-5, -2);
     leftslice.rotationSpeed = -5;
     leftslice.life = 60; // 30 frames so half a second
