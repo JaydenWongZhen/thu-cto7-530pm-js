@@ -117,9 +117,9 @@ function splitFruit(xpos, ypos, fruits) {
 
 function sliceFruit() {
     for (let fruit of fruitgrop) {
-        // fruit.sliced is a custom property
+        
         if (fruit.sliced) {
-            continue; // skip this one, continue next member in the loop
+            continue; 
         }
 
         // dist(): calculate distance
