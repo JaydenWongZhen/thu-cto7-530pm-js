@@ -33,14 +33,13 @@ function setup() {
 function draw() {
     clear();
     image(dojobg,0,0,width,height);
+
     if (gamestatus === "start") {
        drawStartScreen();
        return; 
     }
     
     displayHeader();
-
-
     
     if (frameCount%120 === 0) {
     spawnFruit();
