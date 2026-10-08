@@ -32,6 +32,8 @@ function setup() {
 }
 function draw() {
     clear();
+    
+    drawStartScreen();
     displayHeader();
 
 
