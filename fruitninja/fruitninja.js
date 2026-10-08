@@ -50,7 +50,9 @@ function draw() {
         sliceFruit();
     }
     function displayHeader() {
-        fill
+        fill("white");
+        
+
     }
 
 
