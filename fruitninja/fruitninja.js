@@ -55,7 +55,7 @@ function draw() {
         textSize(30);
         textAlign(LEFT,CENTER);
         text("score: " + score,30,30);
-        text("miss: " + miss)
+        text("miss: " + miss);
     }
 
 
