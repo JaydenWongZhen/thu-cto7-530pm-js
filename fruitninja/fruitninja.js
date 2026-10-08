@@ -39,8 +39,7 @@ function draw() {
         score=0;
         miss=0;
         fruitgrop.removeAll();
-        fruit
-
+        fruit_half.removeAll();
     }
 
     if (gamestatus === "start") {
