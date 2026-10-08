@@ -114,7 +114,7 @@ function splitFruit(xpos, ypos, fruits) {
     fruit_half.add(rightslice); // add to group
 }
 
-// cut the fruit using the mouse pressed (or dragged across the canvas)
+
 function sliceFruit() {
     for (let fruit of fruitgrop) {
         // fruit.sliced is a custom property
