@@ -133,9 +133,9 @@ function sliceFruit() {
 
             fruit.remove(); 
             splitFruit( fx, fy, fruit.type );
-            slicesfx.play();
+            
             score++;
-
+            slicesfx.play();
             break;
         } 
     } 
