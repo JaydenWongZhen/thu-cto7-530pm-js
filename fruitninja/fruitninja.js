@@ -49,6 +49,7 @@ function draw() {
     }
         sliceFruit();
     }
+    textSi
 
 
 // function with parameters
