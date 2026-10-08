@@ -64,7 +64,7 @@ function draw() {
 }
 
 
-    function drawStartScreen() {
+function drawStartScreen() {
         fill(0,50);
         rect(0,0,width,height);
         fill("white");
