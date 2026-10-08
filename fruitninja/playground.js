@@ -35,6 +35,6 @@ function drawGameOver() {
     fill(255);
     textSize(20);
     text("Try again loser!",width/2,400);
-    text()
+    text("Press [")
     
 }
