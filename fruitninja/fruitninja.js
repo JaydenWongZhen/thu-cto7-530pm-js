@@ -49,9 +49,9 @@ function draw() {
     }
         sliceFruit();
     }
-    textSize(30);
-    textAlign(LEFT,CENTER);
-    text("score: " + score,10,5);
+    function displayHeader() {
+        fill
+    }
 
 
 // function with parameters
