@@ -53,7 +53,9 @@ function draw() {
     function displayHeader() {
         fill("white");
         textSize(30);
-        textAlign(LEFT,CENTER)
+        textAlign(LEFT,CENTER);
+        text("score: " + score,30,30);
+        
     }
 
 
