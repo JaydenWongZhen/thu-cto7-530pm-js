@@ -22,7 +22,7 @@ function preload() {
         sploing: loadImage("assets/watermelonsplash.png")
     };
     fruits=[peach,melon];
-    
+    slicesfx
 }
 function setup() {
     createCanvas(800,400);
