@@ -63,7 +63,8 @@ function draw() {
  
     }
 
-function drawStartScreen() {
+
+    function drawStartScreen() {
         fill(0,50);
         rect(0,0,width,height);
         fill("white");
@@ -72,14 +73,15 @@ function drawStartScreen() {
         text("Fruit Ninja",width/2,height/2);
         textSize(20);
         text("press [SPACE] or [CLICK] to start",width/2,height/2+50);
-        }
+}
+
 function displayHeader() {
         fill("white");
         textSize(30);
         textAlign(LEFT,CENTER);
         text("score: " + score,30,30);
         text("miss: " + miss,30,60);
-    }
+}
 
 
 // function with parameters
