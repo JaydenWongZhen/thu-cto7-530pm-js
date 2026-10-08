@@ -117,17 +117,16 @@ function splitFruit(xpos, ypos, fruits) {
 
 function sliceFruit() {
     for (let fruit of fruitgrop) {
-        
         if (fruit.sliced) {
             continue; 
         }
 
         // dist(): calculate distance
-        let distofmouse = dist(mouse.x, mouse.y, fruit.x, fruit.y); // is this fruit near the mouse pointer?
+        let distofmouse = dist(mouse.x, mouse.y, fruit.x, fruit.y); 
         let hitboxradius = fruit.diameter/2 + 5;
 
         if (distofmouse < hitboxradius) {
-            fruit.sliced = true; // i am slicing this one
+            fruit.sliced = true; 
 
             const fx = fruit.x; // remember
             const fy = fruit.y; // remember
