@@ -98,7 +98,7 @@ function splitFruit(xpos, ypos, fruits) {
     leftslice.vel.x = -3;
     leftslice.vel.y = random(-5, -2);
     leftslice.rotationSpeed = -5;
-    leftslice.life = 60; // 30 frames so half a second
+    leftslice.life = 60;
 
     fruit_half.add(leftslice); // add to group
 
