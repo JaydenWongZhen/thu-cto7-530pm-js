@@ -137,8 +137,8 @@ function sliceFruit() {
             score++;
 
             break;
-        } // condition
-    } // loop to close
+        } 
+    } 
 }
 
 function spawnFruit() {
