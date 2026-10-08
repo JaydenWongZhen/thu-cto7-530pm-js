@@ -50,7 +50,7 @@ function draw() {
         sliceFruit();
     }
     textSize(10);
-    text("score: ")
+    text("score: " + score,5,5);
 
 
 // function with parameters
