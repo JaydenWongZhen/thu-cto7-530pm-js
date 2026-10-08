@@ -34,6 +34,7 @@ function drawGameOver() {
     text("Game Over!", width/2,height/2);
     fill(255);
     textSize(20);
-    text("Try again loser!",width/2,);
+    text("Try again loser!",width/2,400);
+    text()
     
 }
