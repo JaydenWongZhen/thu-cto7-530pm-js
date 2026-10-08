@@ -49,7 +49,7 @@ function draw() {
     }
         sliceFruit();
     }
-    textSize(10);
+    textSize(20);
     textAlign(CENTER,CENTER);
     text("score: " + score,10,5);
 
