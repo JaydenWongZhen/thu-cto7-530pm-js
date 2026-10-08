@@ -49,7 +49,8 @@ function draw() {
     }
         sliceFruit();
     }
-    textSize(10)
+    textSize(10);
+    textsize
 
 
 // function with parameters
