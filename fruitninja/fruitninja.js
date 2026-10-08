@@ -53,7 +53,7 @@ function draw() {
     function displayHeader() {
         fill("white");
         textSize(30);
-        textAlign(LEFT)
+        textAlign(LEFT,CENTER)
     }
 
 
