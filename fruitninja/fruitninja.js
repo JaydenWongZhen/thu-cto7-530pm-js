@@ -1,0 +1,162 @@
+// write your codes here
+let dojobg;
+let fruitgrop;
+let fruits=[];
+let mydebug = true;
+let score = 0;
+let fruit_half;
+let miss;
+let gamestatus= "start";
+function preload() {
+    dojobg=loadImage("assets/dojobackground.png");
+    let peach = {
+        whole: loadImage("assets/peachwhole.png"),
+        Lhalf: loadImage("assets/peachhalf.png"),
+        Rhalf: loadImage("assets/peachhalf2.png"),
+        sploing: loadImage("assets/peachsplash.png")
+    };
+    let melon = {
+        whole: loadImage("assets/watermelonwhole.png"),
+        Lhalf: loadImage("assets/watermelonhalf.png"),
+        Rhalf: loadImage("assets/watermelonhalf.png"),
+        sploing: loadImage("assets/watermelonsplash.png")
+    };
+    fruits=[peach,melon];
+    slicesfx=loadSound("assets/fruit-ninja-combo.mp3");
+    bgmusic=loadSound("assets/fruit-ninja-bgtrack.mp3");
+}
+function setup() {
+    createCanvas(800,400);
+    background(255);
+    world.gravity.y=10;
+    fruitgrop = new Group();
+    fruit_half = new Group();
+}
+function draw() {
+    clear();
+    image(dojobg,0,0,width,height);
+    if ((kb.presses("space") || mouse.presses() ) && gamestatus === "start") {
+        gamestatus = "play";
+        bgmusic.loop();
+
+        score=0;
+        miss=0;
+        fruitgrop.removeAll();
+        fruit_half.removeAll();
+    }
+
+    if (gamestatus === "start") {
+       drawStartScreen();
+       return; 
+    }
+    
+    displayHeader();
+    
+    if (frameCount%120 === 0) {
+    spawnFruit();
+    }
+    if (kb.presses("1")) {
+    
+        mydebug=!mydebug;
+        
+    }
+    if (mouse.pressing()) {
+        noStroke();
+        let swoontrail = new Sprite(mouseX,mouseY,10);
+        swoontrail.color="#FFFFFF";
+        swoontrail.stroke="#FFFFFF"
+        swoontrail.collider="none";
+        swoontrail.life=20;
+    }
+        sliceFruit();
+    for (let fruit of fruitgrop) {
+        if (fruit.y > height + 50) {
+            fruit.remove();
+            miss++;
+        }
+    }
+ 
+}
+
+
+function drawStartScreen() {
+        fill(0,50);
+        rect(0,0,width,height);
+        fill("white");
+        textSize(60);
+        textAlign(CENTER,CENTER);
+        text("Fruit Ninja",width/2,height/2);
+        textSize(20);
+        text("press [SPACE] or [CLICK] to start",width/2,height/2+50);
+}
+
+function displayHeader() {
+        fill("white");
+        textSize(30);
+        textAlign(LEFT,CENTER);
+        text("score: " + score,30,30);
+        text("miss: " + miss,30,60);
+}
+
+
+// function with parameters
+function splitFruit(xpos, ypos, fruits) {
+    let leftslice = new Sprite(xpos-10, ypos, 35);
+    leftslice.img = fruits.Lhalf;
+    leftslice.vel.x = -3;
+    leftslice.vel.y = random(-5, -2);
+    leftslice.rotationSpeed = -5;
+    leftslice.life = 60;
+
+    fruit_half.add(leftslice);
+
+
+    let rightslice = new Sprite(xpos+10, ypos, 35);
+    rightslice.img = fruits.Rhalf;
+    rightslice.vel.x = 3; 
+    rightslice.vel.y = random(-5, -2);
+    rightslice.rotationSpeed = 5;
+    rightslice.life = 60; 
+
+    fruit_half.add(rightslice); 
+}
+
+
+function sliceFruit() {
+    for (let fruit of fruitgrop) {
+        if (fruit.sliced) {
+            continue; 
+        }
+
+        // dist(): calculate distance
+        let distofmouse = dist(mouse.x, mouse.y, fruit.x, fruit.y); 
+        let hitboxradius = fruit.diameter/2 + 5;
+
+        if (distofmouse < hitboxradius) {
+            fruit.sliced = true; 
+
+            const fx = fruit.x; 
+            const fy = fruit.y; 
+
+            fruit.remove(); 
+            splitFruit( fx, fy, fruit.type );
+            
+            score++;
+            slicesfx.play();
+            break;
+        } 
+    } 
+}
+
+function spawnFruit() {
+    fruit = new Sprite(random(200,600),400);
+    let fruitvariation=random(fruits);
+    fruit.diameter=35;
+    fruit.vel.y=-10;
+    fruit.vel.x=random(-5,5);
+    fruit.img=fruitvariation.whole;
+    fruitgrop.add(fruit);
+    fruit.type=fruitvariation;
+    fruit.friction=2;
+    fruit.debug = mydebug;
+}
