@@ -61,7 +61,7 @@ function splitFruit(xpos, ypos, fruits) {
     leftslice.rotationSpeed = -5;
     leftslice.life = 60; // 30 frames so half a second
 
-    fruit_half.add(Lhalf); // add to group
+    fruit_half.add(leftslice); // add to group
 
     // you do spawn right half
     let rightslice = new Sprite(xpos+10, ypos, 35);
