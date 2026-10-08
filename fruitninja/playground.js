@@ -29,7 +29,7 @@ function draw() {
 function drawGameOver() {
     fill(0,50);
     rect(0,0,width,height);
-    fill("dark red");
+    fill("red");
     textSize(75);
     textAlign(CENTER,CENTER);
     text("Game Over!", width/2,height/2);
