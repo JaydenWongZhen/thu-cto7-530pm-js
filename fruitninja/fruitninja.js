@@ -33,7 +33,8 @@ function setup() {
 function draw() {
     clear();
     displayHeader();
-    drawStartScreen();
+
+
     image(dojobg,0,0,width,height);
     if (frameCount%120 === 0) {
     spawnFruit();
