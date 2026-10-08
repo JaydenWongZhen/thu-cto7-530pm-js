@@ -61,7 +61,7 @@ function draw() {
         sliceFruit();
     
  
-    }
+}
 
 
     function drawStartScreen() {
