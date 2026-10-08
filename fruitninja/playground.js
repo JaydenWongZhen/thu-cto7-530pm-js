@@ -31,5 +31,5 @@ function drawGameOver() {
     fill("dark red");
     textSize(75);
     textAlign(CENTER,CENTER);
-    text()
+    text("Game Over!", width/)
 }
