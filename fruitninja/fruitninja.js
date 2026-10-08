@@ -32,8 +32,10 @@ function setup() {
 }
 function draw() {
     clear();
-    if (gamestatus === "start")
-    drawStartScreen();
+    if (gamestatus === "start") {
+       drawStartScreen(); 
+    }
+    
     displayHeader();
 
 
