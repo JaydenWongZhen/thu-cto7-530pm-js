@@ -12,6 +12,7 @@ function draw() {
 
     clear();
     image(dojobg,0,0,width,height);
+    drawGameOver()
 
     // drawStartScreen();
 }
