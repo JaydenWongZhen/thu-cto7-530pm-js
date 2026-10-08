@@ -50,7 +50,7 @@ function draw() {
         sliceFruit();
     }
     textSize(10);
-    textAlign(CustomElementRegistry,CENTER)
+    textAlign(CENTER,CENTER);
     text("score: " + score,10,5);
 
 
