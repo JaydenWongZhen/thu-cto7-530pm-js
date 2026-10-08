@@ -71,6 +71,7 @@ function draw() {
         sliceFruit();
     for (let fruit of fruitgrop) {
         if (fruit.y > height + 50) {
+            fruit.remove();
             
         }
     }
