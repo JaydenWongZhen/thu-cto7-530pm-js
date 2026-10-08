@@ -9,6 +9,7 @@ function setup() {
 }
 
 function draw() {
+    if()
     clear();
     image(dojobg,0,0,width,height);
     drawStartScreen();
