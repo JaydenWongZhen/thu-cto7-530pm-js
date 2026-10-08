@@ -35,6 +35,10 @@ function draw() {
     image(dojobg,0,0,width,height);
     if ((kb.presses("space") || mouse.presses() ) && gamestatus === "start") {
         gamestatus = "play";
+
+        score=0;
+        miss=0;
+        
     }
 
     if (gamestatus === "start") {
