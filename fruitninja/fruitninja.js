@@ -99,6 +99,7 @@ function draw() {
     }
  
 }
+function difficultyUpgrade() {}
 function updateTimeLeft() {
     timeleft--;
     if (timeleft === 0 ) {
