@@ -85,7 +85,8 @@ function draw() {
 function updateTimeLeft() {
     timeleft--;
     if (timer <0 ) {
-        clearInterval(intervalobj)
+        clearInterval(intervalobj);
+        console.log("")
     }
 }
 
