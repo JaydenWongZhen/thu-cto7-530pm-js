@@ -176,5 +176,5 @@ function spawnFruit() {
 }
 function drawGameOverScreen() {
     fill(0,50);
-    
+    rect()
 }
