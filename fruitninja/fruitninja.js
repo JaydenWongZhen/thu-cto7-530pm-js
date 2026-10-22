@@ -47,7 +47,7 @@ function draw() {
         fruitgrop.removeAll();
         fruit_half.removeAll();
 
-        setInterval(updateTimeLeft,1000);
+    intervalobj= setInterval(updateTimeLeft,1000);
     }
 
     if (gamestatus === "start") {
