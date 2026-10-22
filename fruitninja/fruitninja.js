@@ -182,6 +182,6 @@ function drawGameOverScreen() {
     textAlign(CENTER,CENTER);
     text("time's up!",width/2,height,2);
     fill(255);
-    textSize
-    text("fruits sliced: " + score,250)
+    textSize(30);
+    text("fruits sliced: " + score,230)
 }
