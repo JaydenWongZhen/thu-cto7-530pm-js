@@ -106,6 +106,7 @@ function updateTimeLeft() {
     timeleft--;
     if (timeleft === 0 ) {
         clearInterval(intervalobj);
+        clearInterval(diffobj);
         console.log("cleaning done!")
     }
 }
