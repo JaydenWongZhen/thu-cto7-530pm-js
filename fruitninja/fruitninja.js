@@ -39,12 +39,12 @@ function draw() {
     clear();
     image(dojobg,0,0,width,height);
 
-    if (timeleft <= 0 && gamestatus === play) {
+    if (timeleft <= 0 && gamestatus === "play") {
         gamestatus = "over";
         drawGameOverScreen();
         noLoop();
     }
-    
+
     if ((kb.presses("space") || mouse.presses() ) && gamestatus === "start") {
         gamestatus = "play";
         bgmusic.loop();
