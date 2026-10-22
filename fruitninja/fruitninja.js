@@ -74,7 +74,7 @@ function draw() {
     else if (frameCount%60 === 0 && difficultylvl === 2) {
         spawnFruit();
     }
-    else if (frameCount%30 === 0 && diffcultylvl === 3) {
+    else if (frameCount%30 === 0 && difficultylvl === 3) {
         spawnFruit();
     }
     else if (frameCount%20 === 0 && difficultylvl === 4) {
