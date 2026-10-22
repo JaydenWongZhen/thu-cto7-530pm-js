@@ -179,5 +179,5 @@ function drawGameOverScreen() {
     rect(0,0,width,height);
     fill(red);
     textSize(60);
-    text("time's")
+    text("time's up!",width/2,height,2)
 }
