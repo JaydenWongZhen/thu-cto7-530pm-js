@@ -175,5 +175,6 @@ function spawnFruit() {
     fruit.debug = mydebug;
 }
 function drawGameOverScreen() {
-    fill(255,50);
+    fill(0,50);
+    
 }
