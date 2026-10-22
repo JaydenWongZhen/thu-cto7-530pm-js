@@ -86,7 +86,7 @@ function updateTimeLeft() {
     timeleft--;
     if (timer <0 ) {
         clearInterval(intervalobj);
-        console.log("")
+        console.log("cleaning done!")
     }
 }
 
