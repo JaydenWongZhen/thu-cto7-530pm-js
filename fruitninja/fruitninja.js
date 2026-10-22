@@ -81,7 +81,7 @@ function draw() {
  
 }
 function updateTimeLeft() {
-    
+    timeleft--;
 }
 
 function drawStartScreen() {
