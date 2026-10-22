@@ -56,7 +56,7 @@ function draw() {
         fruit_half.removeAll();
 
         intervalobj= setInterval(updateTimeLeft,1000);
-        diffobj = setInterval()
+        diffobj = setInterval(difficulty if)
     }
 
     if (gamestatus === "start") {
