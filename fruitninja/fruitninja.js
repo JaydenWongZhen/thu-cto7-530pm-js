@@ -38,7 +38,6 @@ function setup() {
 function draw() {
     clear();
     image(dojobg,0,0,width,height);
-    if (time)
     if ((kb.presses("space") || mouse.presses() ) && gamestatus === "start") {
         gamestatus = "play";
         bgmusic.loop();
