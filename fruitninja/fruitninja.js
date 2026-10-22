@@ -8,6 +8,7 @@ let fruit_half;
 let miss;
 let gamestatus= "start";
 let timeleft = 60;
+let intervalobj;
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
     let peach = {
