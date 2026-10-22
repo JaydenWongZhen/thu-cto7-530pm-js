@@ -41,7 +41,7 @@ function draw() {
     if (timeleft <= 0 && gamestatus === play) {
         gamestatus = "over";
         drawGameOverScreen();
-        noLoop()
+        noLoop();
     }
     if ((kb.presses("space") || mouse.presses() ) && gamestatus === "start") {
         gamestatus = "play";
