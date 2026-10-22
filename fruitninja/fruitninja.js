@@ -84,6 +84,9 @@ function draw() {
 }
 function updateTimeLeft() {
     timeleft--;
+    if (timer <0 ) {
+        
+    }
 }
 
 function drawStartScreen() {
