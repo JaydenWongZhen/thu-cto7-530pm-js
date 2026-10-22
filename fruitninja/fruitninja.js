@@ -192,5 +192,6 @@ function drawGameOverScreen() {
     textSize(30);
     text("fruits sliced: " + score,width/2,230);
     text("fruits missed:" + miss,width/2,260);
-    fruitgrop.removeAll()
+    fruitgrop.removeAll();
+    fruit_half.removeAll();
 }
