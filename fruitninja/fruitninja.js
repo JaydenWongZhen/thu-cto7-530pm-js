@@ -9,7 +9,7 @@ let miss;
 let gamestatus= "start";
 let timeleft = 10;
 let intervalobj;
-
+let diffuclty
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
     let peach = {
