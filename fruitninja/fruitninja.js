@@ -96,9 +96,9 @@ function displayHeader() {
         textSize(30);
         textAlign(LEFT,CENTER);
         text("score: " + score,30,30);
-        textAlign
-        text("miss: " + miss,30,60);
-        text ("uh oh time!!: " + timeleft,30,90);
+        textAlign(CEM)
+        text("miss: " + miss,30,30);
+        text ("uh oh time!!: " + timeleft,30,30);
 }
 
 
