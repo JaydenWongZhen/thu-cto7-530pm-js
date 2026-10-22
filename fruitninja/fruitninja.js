@@ -7,7 +7,7 @@ let score = 0;
 let fruit_half;
 let miss;
 let gamestatus= "start";
-let timeleft = 60;
+let timeleft = 10;
 let intervalobj;
 
 function preload() {
@@ -84,7 +84,7 @@ function draw() {
 }
 function updateTimeLeft() {
     timeleft--;
-    if (timeleft < 0 ) {
+    if (timeleft === 0 ) {
         clearInterval(intervalobj);
         console.log("cleaning done!")
     }
