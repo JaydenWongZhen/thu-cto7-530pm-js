@@ -104,6 +104,7 @@ function draw() {
 }
 function difficultyUpgrade() {
     difficultylvl++
+    console.log("difficulty has upgraded to level " = difficultylvl)
 }
 function updateTimeLeft() {
     timeleft--;
