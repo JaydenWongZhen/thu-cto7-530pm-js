@@ -55,6 +55,7 @@ function draw() {
         fruit_half.removeAll();
 
         intervalobj= setInterval(updateTimeLeft,1000);
+        
     }
 
     if (gamestatus === "start") {
