@@ -174,3 +174,6 @@ function spawnFruit() {
     fruit.friction=2;
     fruit.debug = mydebug;
 }
+function drawGameOverScreen() {
+    
+}
