@@ -77,7 +77,9 @@ function draw() {
     else if (frameCount%30 === 0 && diffcultylvl === 3) {
         spawnFruit();
     }
-    else if (frameCount%20 === 0 && diff)
+    else if (frameCount%20 === 0 && difficultylvl === 4) {
+        spawnFruit()
+    }
     if (kb.presses("1")) {
     
         mydebug=!mydebug;
