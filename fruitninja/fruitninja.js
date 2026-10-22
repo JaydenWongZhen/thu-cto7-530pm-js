@@ -99,7 +99,7 @@ function displayHeader() {
         textAlign(CENTER,CENTER);
         text("miss: " + miss,width/2,30);
         textAlign(RIGHT,CENTER);
-        text ("uh oh time!!: " + timeleft,90,30);
+        text ("uh oh time!!: " + timeleft,width-30,30);
 }
 
 
