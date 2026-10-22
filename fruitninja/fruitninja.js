@@ -67,10 +67,10 @@ function draw() {
     displayHeader();
     
     if (frameCount%120 === 0 && difficultylvl === 1) {
-    spawnFruit();
+        spawnFruit();
     }
     else if (frameCount%60 === 0 && difficultylvl === 2) {
-        s
+        spawnFruit()
     }
     if (kb.presses("1")) {
     
