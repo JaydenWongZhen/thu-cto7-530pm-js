@@ -38,6 +38,7 @@ function setup() {
 function draw() {
     clear();
     image(dojobg,0,0,width,height);
+    
     if (timeleft <= 0 && gamestatus === play) {
         gamestatus = "over";
         drawGameOverScreen();
