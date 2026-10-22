@@ -10,6 +10,7 @@ let gamestatus= "start";
 let timeleft = 10;
 let intervalobj;
 let difficultylvl = 1;
+let diffobj = 
 function preload() {
     dojobg=loadImage("assets/dojobackground.png");
     let peach = {
@@ -55,7 +56,7 @@ function draw() {
         fruit_half.removeAll();
 
         intervalobj= setInterval(updateTimeLeft,1000);
-        
+
     }
 
     if (gamestatus === "start") {
