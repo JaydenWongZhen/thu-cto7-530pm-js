@@ -80,7 +80,9 @@ function draw() {
     }
  
 }
-
+function updateTimeLeft() {
+    
+}
 
 function drawStartScreen() {
         fill(0,50);
