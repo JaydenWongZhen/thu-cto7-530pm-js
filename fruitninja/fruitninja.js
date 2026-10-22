@@ -77,7 +77,7 @@ function draw() {
     else if (frameCount%30 === 0 && diffcultylvl === 3) {
         spawnFruit();
     }
-    else if (frameCount%20 === 0 )
+    else if (frameCount%20 === 0 && diff)
     if (kb.presses("1")) {
     
         mydebug=!mydebug;
