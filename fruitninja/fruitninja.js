@@ -183,6 +183,6 @@ function drawGameOverScreen() {
     text("time's up!",width/2,height,2);
     fill(255);
     textSize(30);
-    text("fruits sliced: " + score,width,230);
-    text("fruits missed:" + mis,)
+    text("fruits sliced: " + score,width/2,230);
+    text("fruits missed:" + miss,width/2)
 }
