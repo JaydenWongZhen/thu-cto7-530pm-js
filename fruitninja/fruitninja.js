@@ -59,7 +59,7 @@ function draw() {
        drawStartScreen();
        return; 
     }
-    
+    if (gamestatus === "over")
     displayHeader();
     
     if (frameCount%120 === 0) {
