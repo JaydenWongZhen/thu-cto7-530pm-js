@@ -45,7 +45,7 @@ function draw() {
         fruitgrop.removeAll();
         fruit_half.removeAll();
 
-        setTimeout
+        setTimeout(update)
     }
 
     if (gamestatus === "start") {
