@@ -7,7 +7,7 @@ let score = 0;
 let fruit_half;
 let miss;
 let gamestatus= "start";
-let timeleft = 10;
+let timeleft = 60;
 let intervalobj;
 let difficultylvl = 1;
 let diffobj;
