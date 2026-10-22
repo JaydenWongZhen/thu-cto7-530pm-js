@@ -73,7 +73,7 @@ function draw() {
         spawnFruit();
     }
     else if (frameCount%30 === 0 && diffcultylvl === 3) {
-        
+        spawnFruit();
     }
     if (kb.presses("1")) {
     
