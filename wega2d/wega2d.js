@@ -19,7 +19,10 @@ function setup() {
   createCanvas(MAZE_COLUMNS * TILE_SIZE, MAZE_ROWS * TILE_SIZE);
   textFont("Arial");
   createMaze();
-  startGame();
+  collectibleItems = [];
+  createCollectibles();
+  createPlayer();
+  createEnemies();
 }
 
 function draw() {
@@ -336,7 +339,8 @@ function updateEnemies() {
 
 function updateWega() {
   if (millis() < player.customWegaGraceUntil) return;
-  const difficultySpeed = Math.min(1.4, 1.05 + collectibleItems.filter(item => !item.customCollected).length / -400);
+  const collectedCount = collectibleItems.filter(item => item.customCollected).length;
+  const difficultySpeed = Math.min(1.4, 1.05 + collectedCount * 0.0035);
   const pathUpdateInterval = 430;
   if (millis() - wegaEnemy.customLastPathUpdate > pathUpdateInterval) {
     wegaEnemy.customPath = findMazePath(wegaEnemy.customX, wegaEnemy.customY, player.customX, player.customY);
@@ -604,6 +608,10 @@ function drawRorysEffect() {
 
 function keyPressed() {
   if ((keyCode === ENTER || key === "r" || key === "R") && gameState !== "playing") {
+    startGame();
+    return false;
+  }
+  if ((key === "r" || key === "R") && gameState === "playing") {
     startGame();
     return false;
   }
